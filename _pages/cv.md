@@ -9,37 +9,36 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Educación
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Magíster Epidemiología, Universidad de los Andes, 2024
+* Fonoaudiólogo, Universidad del Desarrollo, 2009
+* Licenciado en Fonoaudiología, Universidad del Desarrollo 2008
 
-Work experience
+Experiencia Laboral
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Octubre 2010 - Mayo 2014
+  * Servicio de Salud Arauco
+  * Tareas Encomendadas: Actividades de Salud Laboral y Gestión
+  * Supervisor: Director Servicio
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Noviembre 2014 - Junio 2020
+  * Hospital Salvador - Servicio de Neurología
+  * Tareas Encomendadas: Atención Clínica Usuarios
+  * Supervisor: Jefe de Servicio
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Junio- 2020 - a la Fecha
+  * Instituto Nacional del Tórax
+  * Tareas Encomendadas: Atención Clinica de Usuarios - Docencia - 
+  * Supervisor: Jefe Departamento
   
-Skills
+Habilidades
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Integración clínica-académica
+* Visión interdisciplinaria y de salud pública
+  * Articulación con equipos de salud diversos:
+  * Enfoque en equidad y acceso a la salud
+* Liderazgo académico y compromiso formativo
 
 Publications
 ======
