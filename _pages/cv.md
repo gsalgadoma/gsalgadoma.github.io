@@ -32,6 +32,30 @@ Experiencia Laboral
   * Tareas Encomendadas: Atención Clinica de Usuarios - Docencia - 
   * Supervisor: Jefe Departamento
   
+Experiencia Académica
+======
+* 2013
+  * Universidad del Desarrollo-Escuela de Fonoaudiología
+  * Tareas Encomendadas: Tutor Clínico
+  * Área: Habilitación Profesional
+
+*  2014 - 2018
+  * Universidad Internacional SEK-Escuela de Fonoaudiología
+  * Tareas Encomendadas: Docente Catedra
+  * Área: Evaluación e Intervención Deglución
+
+* 2023 - a la Fecha
+  * Universidad de los Andes-Escuela de Fonoaudiología
+  * Tareas Encomendadas: Docente de Catedra Pre/Postgrado 
+  * Área: Salud Pública - Rehabilitación Basada en la Comunidad - Seminario Investigación
+
+  2025 - a la Fecha
+  * Universidad de los Andes-Escuela de Enfermería
+  * Tareas Encomendadas: Docente de Catedra Pregrado 
+  * Área: Salud Pública - Epidemiología - Seminario Investigación - Fisiología
+
+
+
 Habilidades
 ======
 * Integración clínica-académica
