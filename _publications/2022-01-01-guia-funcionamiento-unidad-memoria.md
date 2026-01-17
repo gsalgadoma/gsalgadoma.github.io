@@ -1,4 +1,3 @@
-
 ---
 title: "Guía de funcionamiento: Unidad de Memoria. Centro de Memoria y Neuropsiquiatría"
 collection: publications
