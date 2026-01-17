@@ -1,0 +1,14 @@
+---
+title: "Consideraciones clínicas para fonoaudiólogos en el tratamiento de personas con COVID-19 y traqueostomía. Parte I: Deglución."
+collection: publications
+category: manuscripts
+permalink: /publication/2009-10-01-paper-title-number-1
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+date: 2020-11
+venue: 'Journal 1'
+slidesurl: 'http://gsalgadoma.github.io/files/slides1.pdf'
+paperurl: 'http://gsalgadoma.github.io/files/paper1.pdf'
+bibtexurl: 'http://gsalgadoma.github.io/files/bibtex1.bib'
+citation: 'Tobar-Fredes R, Briceño Meneses B, Fuentealba Miranda I, Orellana Villouta M, Venegas-Mahn M, Pavez Reyes A, Vásquez Lara P, Wang Y, González Varas A, Salgado Maldonado G, Saa-Barra N, Zúñiga Reyes J, Gutiérrez Cifuentes E, Vera-González R, Salazar Barra F, Jiménez Rojas F, Opazo-García P, Heusser Sagredo P. Consideraciones clínicas para fonoaudiólogos en el tratamiento de personas con COVID-19 y traqueostomía. Parte I: Deglución. Rev. Chil. Fonoaudiol. [Internet]. 23 de noviembre de 2020 [citado 17 de enero de 2026];19:pp. 1-12. Disponible en: https://revfono.uchile.cl/index.php/RCDF/article/view/60185'
+---
+A la fecha de redacción de este artículo, más de 500 mil personas han sido afectadas por el virus SARS-CoV-2 en Chile, manifestando diferentes grados de la enfermedad COVID-19. Aquellas que sobrellevan condiciones más severas generan una condición que requiere soporte ventilatorio invasivo y tratamiento en unidades de cuidados intensivos, que de prolongarse en el tiempo deriva en la necesidad de una traqueostomía. A pesar de los beneficios que posee esta en la recuperación de personas con dificultades respiratorias, su implementación se asocia a alteraciones deglutorias que se suman a las generadas por COVID-19. Condición que supone un desafío para los/as fonoaudiólogos/as, quienes están expuestos/as al virus debido a su proceder en estructuras del tracto aerodigestivo y la realización de procedimientos potencialmente generadores de aerosol. El objetivo de este artículo es entregar orientaciones y herramientas clínicas para la intervención en la deglución de personas con traqueostomía y COVID-19. Estas emanan de un análisis pragmático de la evidencia disponible a la fecha, interpretadas bajo nuestra experiencia de atender a más de 561 personas con dicha condición. Se espera contribuir a la rehabilitación de la deglución en personas con COVID-19 y traqueostomía. Para ello se expone sobre las características de la deglución en esta población, su tratamiento, consideraciones para el uso de técnicas específicas, y orientaciones para la mejora de la calidad de vida mediante la mantención y/o recuperación de la funcionalidad deglutoria. Siempre bajo un esquema centrado en el cuidado y protección de las personas hospitalizadas y el equipo de salud.
