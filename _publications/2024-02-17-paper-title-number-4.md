@@ -1,13 +1,12 @@
 ---
-title: "Paper Title Number 4"
+title: "Orientaciones técnicas para la rehabilitación en tiempos de pandemia COVID-19: Prevención síndrome post COVID"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://gsalgadoma.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuals
+permalink: /publication/2020-09-01-minsal-orientaciones-rehabilitacion-pandemia-post-covid
+excerpt: "Documento técnico del Ministerio de Salud de Chile que entrega lineamientos para organizar y ejecutar acciones de rehabilitación durante la pandemia por COVID-19, con foco en la prevención de secuelas y complicaciones (incluyendo ámbitos físicos, respiratorios, cognitivos, nutricionales, comunicación y deglución) y en la continuidad del cuidado en distintos niveles asistenciales."
+date: 2020-09-01
+venue: "Ministerio de Salud de Chile (MINSAL) – Subsecretaría de Redes Asistenciales / Subsecretaría de Salud Pública (DIPRECE)"
+paperurl: "https://diprece.minsal.cl/wp-content/uploads/2020/09/Orientaciones-Técnicas-para-la-Rehabilitación-en-tiempos-de-pandemia.-Prevención-del-Síndrome-post-COVID..pdf"
+pdfurl: "https://diprece.minsal.cl/wp-content/uploads/2020/09/Orientaciones-Técnicas-para-la-Rehabilitación-en-tiempos-de-pandemia.-Prevención-del-Síndrome-post-COVID..pdf"
+citation: "Ministerio de Salud de Chile (MINSAL). Subsecretaría de Redes Asistenciales; Subsecretaría de Salud Pública (DIPRECE). Orientaciones técnicas para la rehabilitación en tiempos de pandemia COVID-19: Prevención síndrome post COVID. Chile; 2020."
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
