@@ -8,4 +8,4 @@ date: 2020-07-01
 location: "Santiago, Chile"
 ---
 
-description: "Clase centrada en el rol del fonoaudiólogo en el manejo hospitalario de personas con COVID-19, especialmente en contextos de cuidados críticos."
+Clase centrada en el rol del fonoaudiólogo en el manejo hospitalario de personas con COVID-19, especialmente en contextos de cuidados críticos
