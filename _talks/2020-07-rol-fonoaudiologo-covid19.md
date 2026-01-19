@@ -7,5 +7,4 @@ venue: "Universidad Autónoma de Chile – Facultad de Ciencias de la Salud, Car
 date: 2020-07-01
 location: "Santiago, Chile"
 ---
-
 Clase centrada en el rol del fonoaudiólogo en el manejo hospitalario de personas con COVID-19, especialmente en contextos de cuidados críticos
