@@ -1,10 +1,10 @@
 ---
-title: “Fonoaudiología en un hospital público de alta complejidad: Experiencias en tiempos de Pandemia”
+title: "Fonoaudiología en un hospital público de alta complejidad: Experiencias en tiempos de Pandemia"
 collection: publications
 category: conferences
-permalink: /publication/conferencia-2
-excerpt: 'Este trabajo fue presentado en el Congreso de la Sociedad Chilena de Otorrinolaringología, Medicina y Cirugía de Cabeza y Cuello'
+permalink: /publication/conferencia-2/
+excerpt: "Este trabajo fue presentado en el Congreso de la Sociedad Chilena de Otorrinolaringología, Medicina y Cirugía de Cabeza y Cuello"
 date: 2020-11-17
-venue: '76 congreso Chileno de Otorrinolaringología, Medicina y Cirugía de Cabeza y Cuello'
-citation: '76 congreso Chileno de Otorrinolaringología, Medicina y Cirugía de Cabeza y Cuello. Trabajo Oral: “Fonoaudiología en un hospital público de alta complejidad: Experiencias en tiempos de Pandemia”. 	Noviembre 2020'
+venue: "76 Congreso Chileno de Otorrinolaringología, Medicina y Cirugía de Cabeza y Cuello"
+citation: "76 Congreso Chileno de Otorrinolaringología, Medicina y Cirugía de Cabeza y Cuello. Trabajo Oral: \"Fonoaudiología en un hospital público de alta complejidad: Experiencias en tiempos de Pandemia\". Noviembre 2020."
 ---
