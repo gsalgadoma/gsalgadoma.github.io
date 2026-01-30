@@ -1,20 +1,19 @@
 ---
-title: "Teaching experience 1"
+title: "Clase Diplomado de Geriatría"
 collection: teaching
-type: "Undergraduate course"
+type: "postgraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "UNIVERSIDAD SAN SEBASTIAN, FACULTAD DE MEDICINA Y CIENCIAS DE LA SALUD"
+date: 2025-11-01
+location: "Santiago,Chile"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
+UNIVERSIDAD SAN SEBASTIAN, FACULTAD DE MEDICINA Y CIENCIAS DE LA SALUD, DIPLOMADO EN GERIATRIA.
 ======
 
-Heading 2
-======
-
-Heading 3
-======
+**Clases Impartidas**:
+- Transición demográfica, epidemiológica y carga de enfermedad en personas mayores
+- Implicancias sanitarias y sociales del envejecimiento poblacional
+- Fundamentos de la Gerontología y su evolución en Chile
+- Políticas sociales y programas públicos para personas mayores
