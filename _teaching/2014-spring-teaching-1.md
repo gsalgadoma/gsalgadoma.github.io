@@ -1,7 +1,7 @@
 ---
 title: "Clase Diplomado de Geriatría"
 collection: teaching
-type: "postgraduate course"
+type: "Postgrado"
 permalink: /teaching/2014-spring-teaching-1
 venue: "UNIVERSIDAD SAN SEBASTIAN, FACULTAD DE MEDICINA Y CIENCIAS DE LA SALUD"
 date: 2025-11-01
