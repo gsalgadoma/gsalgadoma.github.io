@@ -9,8 +9,8 @@ location: "Santiago,Chile"
 ---
 
 
-UNIVERSIDAD SAN SEBASTIAN, FACULTAD DE MEDICINA Y CIENCIAS DE LA SALUD, DIPLOMADO EN GERIATRIA.
-======
+### UNIVERSIDAD SAN SEBASTIAN, FACULTAD DE MEDICINA Y CIENCIAS DE LA SALUD, DIPLOMADO EN GERIATRIA.
+
 
 **Clases Impartidas**:
 - Transición demográfica, epidemiológica y carga de enfermedad en personas mayores
