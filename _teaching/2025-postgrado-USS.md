@@ -1,8 +1,8 @@
 ---
-title: "2025"
+title: "Diplomado en Geriatría USS"
 collection: teaching
 type: "Postgrado"
-permalink: /teaching/2025-postgrado
+permalink: /teaching/2025-postgrado-USS
 venue: "Santiago"
 date: 2025-11-01
 location: "Santiago,Chile"
@@ -17,12 +17,3 @@ location: "Santiago,Chile"
 - Fundamentos de la Gerontología y su evolución en Chile
 - Políticas sociales y programas públicos para personas mayores
 
-### Universidad de los Andes, Facultad de Medicina, Escuela de Fonoaudiología, Diplomado de Fonoaudiología en Medicina Intensiva.
-
-**Clases Impartidas**:
-- Implementación de Sistemas de comunicación en UCI
-- Evaluación  de la comunicación y la voz en traqueostomía 
-- Protocolos de decanulación 
-- Válvulas de fonación: principios y usos
-- Consideraciones en Decanulación Compleja
-- Tipos de cánulas de traqueostomía 
