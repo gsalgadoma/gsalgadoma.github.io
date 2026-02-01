@@ -1,7 +1,7 @@
 ---
 title: "Pregrado UAndes 2025 Primer Semestre"
 collection: teaching
-type: "Postgrado"
+type: "Pregrado"
 permalink: /teaching/2025-pregrado-uandes
 venue: "Santiago"
 date: 2025-03-01
