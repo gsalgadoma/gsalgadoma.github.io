@@ -14,4 +14,5 @@ location: "Santiago, Chile."
 - Epidemiología y Salud Publica.
 - Introducción a la Epidemiología
 - Seminario de Investigación
+- Fisiología
 
