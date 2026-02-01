@@ -1,7 +1,7 @@
 ---
 title: "Disfagia con enfoque paliativista: dietas modificadas y limitaciones del esfuerzo terapéutico"
 collection: talks
-type: "Conference presentation"
+type: "Presentación Jornada"
 permalink: /talks/2023-10-disfagia-cuidados-paliativos
 venue: "IV Jornada de Cuidados Paliativos y Psicooncología – Instituto Nacional del Tórax"
 date: 2023-10-01

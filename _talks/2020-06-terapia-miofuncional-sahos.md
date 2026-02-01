@@ -1,7 +1,7 @@
 ---
 title: "Terapia miofuncional en el síndrome de apneas e hipopneas obstructivas del sueño (SAHOS)"
 collection: talks
-type: "Conference presentation"
+type: "Presentación Seminario"
 permalink: /talks/2020-06-terapia-miofuncional-sahos
 venue: "Sociedad Chilena de Otorrinolaringología – Seminario SAHOS"
 date: 2020-06-01

@@ -1,7 +1,7 @@
 ---
 title: "Cuidados de la vía aérea superior y fonación"
 collection: talks
-type: "Conference presentation"
+type: "Presentación Congreso"
 permalink: /talks/2020-11-via-aerea-fonacion
 venue: "52° Congreso Chileno de Enfermedades Respiratorias"
 date: 2020-11-01

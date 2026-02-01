@@ -1,7 +1,7 @@
 ---
 title: "Rol del fonoaudiólogo en la atención de usuarios hospitalizados por COVID-19"
 collection: talks
-type: "Guest lecture"
+type: "Presentación Jornada"
 permalink: /talks/2020-07-rol-fonoaudiologo-covid19
 venue: "Universidad Autónoma de Chile – Facultad de Ciencias de la Salud, Carrera de Fonoaudiología"
 date: 2020-07-01

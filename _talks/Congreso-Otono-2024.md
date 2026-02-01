@@ -1,7 +1,7 @@
 ---
 title: "Mesa caso clínico: Manejo intensivo y rehabilitación del síndrome cardiopulmonar por Hantavirus"
 collection: talks
-type: "Conference presentation"
+type: "Presentación Congreso"
 permalink: /talks/2024-05-caso-clinico-hantavirus
 venue: "Congreso de Otoño – Sociedad Chilena de Medicina Intensiva"
 date: 2024-05-01
