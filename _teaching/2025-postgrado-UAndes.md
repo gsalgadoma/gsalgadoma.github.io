@@ -1,11 +1,11 @@
 ---
-title: "2025"
+title: "Diplomado de Fonoaudiología en Medicina Intensiva-UAndes"
 collection: teaching
 type: "Postgrado"
 permalink: /teaching/2025-postgrado-UAndes
 venue: "Santiago"
 date: 2025-05-01
-location: "Santiago,Chile"
+location: "Santiago, Chile"
 ---
 
 
