@@ -11,61 +11,65 @@ redirect_from:
 
 Educación
 ======
-* Magíster Epidemiología, Universidad de los Andes, 2024
-* Fonoaudiólogo, Universidad del Desarrollo, 2009
-* Licenciado en Fonoaudiología, Universidad del Desarrollo 2008
+Magíster en Epidemiología, Universidad de los Andes, 2024
+Fonoaudiólogo, Universidad del Desarrollo, 2009
+Licenciado en Fonoaudiología, Universidad del Desarrollo, 2008
 
-Experiencia Laboral
+Experiencia Profesional
 ======
-* Agosto- 2025 - a la Fecha
-  * Universidad de los Andes
-  * Tareas Encomendadas: Docencia 
+Agosto 2025 – Presente
+Universidad de los Andes
 
-* Junio- 2020 - a la Fecha
-  * Instituto Nacional del Tórax
-  * Tareas Encomendadas: Atención Cínica de Usuarios - Docencia - 
-  * Supervisor: Jefe Departamento
+Docencia de pregrado y participación en actividades académicas.
 
-* Noviembre 2014 - Junio 2020
-  * Hospital Salvador - Servicio de Neurología
-  * Tareas Encomendadas: Atención Clínica Usuarios
-  * Supervisor: Jefe de Servicio
+Junio 2020 – Presente
+Instituto Nacional del Tórax
 
-* Octubre 2010 - Mayo 2014
-  * Servicio de Salud Arauco
-  * Tareas Encomendadas: Actividades de Salud Laboral y Gestión
-  * Supervisor: Director Servicio
-  
+Atención clínica especializada de usuarios.
+Participación en actividades docentes y formación de estudiantes.
+
+Noviembre 2014 – Junio 2020
+Hospital del Salvador – Servicio de Neurología
+
+Atención clínica en pacientes neurológicos, con énfasis en rehabilitación.
+
+Octubre 2010 – Mayo 2014
+Servicio de Salud Arauco
+
+Desarrollo de programas de salud laboral.
+Gestión en salud y coordinación de equipos.
+
 Experiencia Académica
 ======
-*2025 - a la Fecha
-  * Universidad de los Andes-Escuela de Enfermería
-  * Tareas Encomendadas: Docente de Catedra Pregrado 
-  * Área: Salud Pública - Epidemiología - Seminario Investigación - Fisiología
+2025 – Presente
+Universidad de los Andes – Escuela de Enfermería
 
-* 2023 - a la Fecha
-  * Universidad de los Andes-Escuela de Fonoaudiología
-  * Tareas Encomendadas: Docente de Catedra Pre/Postgrado 
-  * Área: Salud Pública - Rehabilitación Basada en la Comunidad - Seminario Investigación
+Docente de pregrado.
+Áreas: Salud Pública, Epidemiología, Seminario de Investigación y Fisiología.
 
-*  2014 - 2018
-  * Universidad Internacional SEK-Escuela de Fonoaudiología
-  * Tareas Encomendadas: Docente Catedra
-  * Área: Evaluación e Intervención Deglución
+2023 – Presente
+Universidad de los Andes – Escuela de Fonoaudiología
 
-* 2013
-  * Universidad del Desarrollo-Escuela de Fonoaudiología
-  * Tareas Encomendadas: Tutor Clínico
-  * Área: Habilitación Profesional
+Docente de pre y postgrado.
+Áreas: Salud Pública, Rehabilitación Basada en la Comunidad y Seminario de Investigación.
 
+2014 – 2018
+Universidad Internacional SEK – Escuela de Fonoaudiología
+
+Docente de pregrado.
+Área: Evaluación e intervención en deglución.
+
+2013
+Universidad del Desarrollo – Escuela de Fonoaudiología
+Tutor clínico en formación profesional.
 
 Habilidades
 ======
-* Integración clínica-académica
-* Visión interdisciplinaria y de salud pública
-  * Articulación con equipos de salud diversos:
-  * Enfoque en equidad y acceso a la salud
-* Liderazgo académico y compromiso formativo
+Integración clínica y académica en contextos de salud.
+Enfoque interdisciplinario con perspectiva de salud pública.
+Experiencia en trabajo colaborativo con equipos de salud.
+Compromiso con la equidad, el acceso y la calidad en salud.
+Liderazgo académico y formación de profesionales de la salud.
 
 Publicaciones
 ======
