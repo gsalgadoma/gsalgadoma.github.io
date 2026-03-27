@@ -11,9 +11,9 @@ redirect_from:
 
 Educación
 ======
-*Magíster en Epidemiología, Universidad de los Andes, 2024
-*Fonoaudiólogo, Universidad del Desarrollo, 2009
-*Licenciado en Fonoaudiología, Universidad del Desarrollo, 2008
+* Magíster en Epidemiología, Universidad de los Andes, 2024
+* Fonoaudiólogo, Universidad del Desarrollo, 2009
+* Licenciado en Fonoaudiología, Universidad del Desarrollo, 2008
 
 Experiencia Profesional
 ======
