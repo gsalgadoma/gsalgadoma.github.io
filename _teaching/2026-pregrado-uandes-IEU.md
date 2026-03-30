@@ -4,7 +4,7 @@ collection: teaching
 type: "Pregrado"
 permalink: /teaching/2026-pregrado-uandes-IEU
 venue: "Santiago"
-date: 202-03-01
+date: 2026-03-01
 location: "Santiago, Chile."
 ---
 
