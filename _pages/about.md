@@ -19,6 +19,13 @@ Voz, deglución, vía aérea, cuidados intensivos, epidemiología y salud públi
 - **Clinical Specialist**, Instituto Nacional del Tórax
 - **Program Director**, Diplomado de Fonoaudiología en Medicina Intensiva
 
+## Featured Impact
+
+- **15+ years** of clinical and academic experience in health
+- **National leadership** in scientific societies and disciplinary development
+- **Undergraduate and postgraduate teaching** across speech-language pathology, epidemiology and health sciences
+- **Applied research** connected to clinical practice, education and public health
+
 Soy **fonoaudiólogo, epidemiólogo, académico e investigador**. Mi trabajo integra **clínica**, **docencia**, **investigación aplicada** y **liderazgo disciplinar**, con foco en **voz, deglución, vía aérea, medicina intensiva, epidemiología y salud pública**.
 
 Actualmente desarrollo actividades académicas en la **Universidad de los Andes** y labor clínica especializada en el **Instituto Nacional del Tórax**, articulando una práctica basada en evidencia, centrada en la persona y conectada con las necesidades de los sistemas de salud.
