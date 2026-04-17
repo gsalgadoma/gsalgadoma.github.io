@@ -21,7 +21,7 @@ Agosto 2025 – Presente
 * Universidad de los Andes
 * Docencia de pregrado y participación en actividades académicas.
 
-Junio 2020 – Presente
+Junio 2020 – Abril 2026
 * Instituto Nacional del Tórax
 * Atención clínica especializada de usuarios.
 Participación en actividades docentes y formación de estudiantes.
@@ -91,4 +91,3 @@ Presidente División de Fonoaudiología y Terapia Ocupacional (DIFOTOI) (2021-20
 Presidente: 2025-2026
 
 * Sociedad Chilena de Medicina del Sueño 
-
