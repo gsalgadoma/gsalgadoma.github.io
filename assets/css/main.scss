@@ -41,3 +41,140 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Visual refresh - Phase 2 */
+html {
+  font-size: 17px;
+}
+
+body {
+  color: #243447;
+  background: #fcfcfd;
+}
+
+a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+}
+
+.masthead {
+  border-bottom: 1px solid #e6ebf1;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  font-weight: 600;
+}
+
+.page__title,
+.archive__item-title {
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.page__title {
+  font-size: 2.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.page__content {
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+.page__content h2 {
+  margin-top: 2.2rem;
+  padding-top: 0.2rem;
+  font-size: 1.45rem;
+}
+
+.page__content h3 {
+  margin-top: 1.5rem;
+  font-size: 1.15rem;
+}
+
+.page__content p,
+.page__content li {
+  color: #334155;
+}
+
+.sidebar {
+  font-size: 0.95rem;
+}
+
+.author__avatar img {
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.10);
+}
+
+.author__content,
+.author__urls-wrapper {
+  background: #ffffff;
+  border: 1px solid #e8edf3;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+}
+
+.author__content {
+  margin-bottom: 0.9rem;
+}
+
+.archive {
+  margin-top: 0.5rem;
+}
+
+.archive__item {
+  padding: 1.15rem 1.25rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  border: 1px solid #e8edf3;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+}
+
+.archive__item-excerpt {
+  color: #475569;
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.notice--primary,
+.notice--info,
+.notice--success,
+.notice {
+  border-radius: 14px;
+}
+
+.page {
+  margin-top: 1.2rem;
+}
+
+.page__footer,
+.archive__subtitle {
+  border-color: #e8edf3;
+}
+
+.page__content hr {
+  margin: 2rem 0;
+  border-bottom: 1px solid #e8edf3;
+}
+
+table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+@media (min-width: 80em) {
+  .page {
+    max-width: 1280px;
+  }
+}
