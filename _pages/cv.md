@@ -24,7 +24,9 @@ Agosto 2025 – Presente
 Junio 2020 – Abril 2026
 * Instituto Nacional del Tórax
 * Atención clínica especializada de usuarios.
-Participación en actividades docentes y formación de estudiantes.
+* Participación en actividades docentes y formación de estudiantes.
+* Integrante del Comité de Investigación Clínica.
+* Secretario del Comité de Ética Asistencial (2025–2026).
 
 Noviembre 2014 – Junio 2020
 * Hospital del Salvador – Servicio de Neurología
