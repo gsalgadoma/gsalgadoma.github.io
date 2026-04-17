@@ -8,23 +8,24 @@ redirect_from:
 ---
 
 <div class="notice--primary" style="padding:1.25rem 1.4rem; margin-bottom:1.5rem; border-radius:16px;">
-<strong>Academic clinician and researcher</strong><br>
+<strong>Académico, clínico e investigador</strong><br>
 Voz, deglución, vía aérea, cuidados intensivos, epidemiología y salud pública.
 </div>
 
-## Current Leadership Roles
+## Roles actuales de liderazgo
 
-- **President**, Sociedad Chilena de Deglución y Alimentación (SOCHIDA)
-- **Academic Faculty**, Universidad de los Andes
-- **Clinical Specialist**, Instituto Nacional del Tórax
-- **Program Director**, Diplomado de Fonoaudiología en Medicina Intensiva
+- **Presidente**, Sociedad Chilena de Deglución y Alimentación (SOCHIDA)
+- **Académico**, Universidad de los Andes
+- **Clínico especialista**, Instituto Nacional del Tórax
+- **Director**, Diplomado de Fonoaudiología en Medicina Intensiva, Universidad de los Andes
+- **Director**, Diplomado en Deglutología del Adulto, Universidad de los Andes
 
-## Featured Impact
+## Impacto destacado
 
-- **15+ years** of clinical and academic experience in health
-- **National leadership** in scientific societies and disciplinary development
-- **Undergraduate and postgraduate teaching** across speech-language pathology, epidemiology and health sciences
-- **Applied research** connected to clinical practice, education and public health
+- **15+ años** de experiencia clínica y académica en salud
+- **Liderazgo nacional** en sociedades científicas y desarrollo disciplinar
+- **Docencia de pregrado y posgrado** en Fonoaudiología, Epidemiología y Ciencias de la Salud
+- **Investigación aplicada** conectada con la práctica clínica, la docencia y la salud pública
 
 Soy **fonoaudiólogo, epidemiólogo, académico e investigador**. Mi trabajo integra **clínica**, **docencia**, **investigación aplicada** y **liderazgo disciplinar**, con foco en **voz, deglución, vía aérea, medicina intensiva, epidemiología y salud pública**.
 
