@@ -19,3 +19,6 @@ main:
 
   - title: "Contacto"
     url: /contact/
+
+  - title: "EN"
+    url: /en/
