@@ -5,13 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
+Investigación científica, protocolos, publicaciones indexadas y producción académica vinculada a voz, deglución, vía aérea, rehabilitación y salud pública.
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">Puedes revisar mis publicaciones en mi <a href="{{site.author.googlescholar}}">perfil de Google Scholar</a>.</div>
+  <div class="notice--primary" style="padding:1rem; margin:1rem 0;">Revisa métricas y listado ampliado en mi <a href="{{site.author.googlescholar}}">perfil de Google Scholar</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -20,7 +21,7 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
