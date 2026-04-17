@@ -7,15 +7,15 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "es-CL"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Gabriel Salgado Maldonado"
 title_separator          : "-"
 name                     : &name "Gabriel Salgado Maldonado"
-description              : &description "personal description"
-url                      : https://gsalgadoma.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/gsalgado.github.io"
+description              : &description "Académico, clínico e investigador en voz, deglución, vía aérea y medicina intensiva."
+url                      : https://gsalgadoma.github.io
+baseurl                  : ""
+repository               : "gsalgadoma/gsalgadoma.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png.jpg"
   name             : "Gabriel Salgado Maldonado"
   pronouns         : "he/him"  
-  bio              : "Académico- Fonoaudiólogo-Epidemiólogo"
-  location         : "Santiago de Chile"
-  employer         : "Universidad de los Andes"
+  bio              : "Académico · Clínico · Investigador en voz, deglución, vía aérea y cuidados intensivos."
+  location         : "Santiago, Chile"
+  employer         : "Universidad de los Andes / Instituto Nacional del Tórax"
   uri              : "https://www.uandes.cl/personas/gabriel-salgado-maldonado/"
   email            : "gsalgadom@uandes.cl" 
 
@@ -298,7 +298,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Santiago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
