@@ -1,26 +1,14 @@
 ---
 ---
-
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
-
 @import
     "vendor/breakpoint/breakpoint",
-
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
     "include/mixins",
     "vendor/susy/susy",
-
     "layout/reset",
     "layout/base",
-
     "include/utilities",
     "layout/tables",
     "layout/buttons",
@@ -29,152 +17,27 @@
     "layout/navigation",
     "layout/footer",
     "syntax",
-
     "layout/forms",
-
     "layout/page",
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv",
-
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
-
-/* Visual refresh - Phase 2 */
-html {
-  font-size: 17px;
+    "vendor/font-awesome/brands";
+html{font-size:17px;} body{color:#243447;background:#fcfcfd;} a{text-decoration-thickness:.08em;text-underline-offset:.14em;} .masthead{border-bottom:1px solid #e6ebf1;background:rgba(255,255,255,.96);} .greedy-nav{background:transparent;} .greedy-nav a{font-weight:600;} .page__title,.archive__item-title{letter-spacing:-.02em;line-height:1.2;} .page__title{font-size:2.1rem;margin-bottom:.8rem;} .page__content{font-size:1.02rem;line-height:1.8;} .page__content p,.page__content li{color:#334155;} .author__avatar img{border-radius:18px;box-shadow:0 10px 28px rgba(15,23,42,.10);} .author__content,.author__urls-wrapper,.archive__item{background:#fff;border:1px solid #e8edf3;border-radius:16px;box-shadow:0 8px 24px rgba(15,23,42,.04);} .author__content,.author__urls-wrapper{padding:1rem;} .archive__item{padding:1.15rem 1.25rem;margin-bottom:1rem;} .btn{border-radius:999px;padding:.5rem 1rem;font-weight:600;} .page{margin-top:1.2rem;} .page__footer,.archive__subtitle{border-color:#e8edf3;}
+/* full dark mode support */
+html[data-theme='dark'], body.dark-theme, .dark-theme {
+  background:#0f172a !important;
+  color:#e5e7eb !important;
 }
-
-body {
-  color: #243447;
-  background: #fcfcfd;
-}
-
-a {
-  text-decoration-thickness: 0.08em;
-  text-underline-offset: 0.14em;
-}
-
-.masthead {
-  border-bottom: 1px solid #e6ebf1;
-  background: rgba(255, 255, 255, 0.96);
-}
-
-.greedy-nav {
-  background: transparent;
-}
-
-.greedy-nav a {
-  font-weight: 600;
-}
-
-.page__title,
-.archive__item-title {
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-}
-
-.page__title {
-  font-size: 2.1rem;
-  margin-bottom: 0.8rem;
-}
-
-.page__content {
-  font-size: 1.02rem;
-  line-height: 1.8;
-}
-
-.page__content h2 {
-  margin-top: 2.2rem;
-  padding-top: 0.2rem;
-  font-size: 1.45rem;
-}
-
-.page__content h3 {
-  margin-top: 1.5rem;
-  font-size: 1.15rem;
-}
-
-.page__content p,
-.page__content li {
-  color: #334155;
-}
-
-.sidebar {
-  font-size: 0.95rem;
-}
-
-.author__avatar img {
-  border-radius: 18px;
-  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.10);
-}
-
-.author__content,
-.author__urls-wrapper {
-  background: #ffffff;
-  border: 1px solid #e8edf3;
-  border-radius: 16px;
-  padding: 1rem;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
-}
-
-.author__content {
-  margin-bottom: 0.9rem;
-}
-
-.archive {
-  margin-top: 0.5rem;
-}
-
-.archive__item {
-  padding: 1.15rem 1.25rem;
-  margin-bottom: 1rem;
-  background: #ffffff;
-  border: 1px solid #e8edf3;
-  border-radius: 16px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
-}
-
-.archive__item-excerpt {
-  color: #475569;
-}
-
-.btn {
-  border-radius: 999px;
-  padding: 0.5rem 1rem;
-  font-weight: 600;
-}
-
-.notice--primary,
-.notice--info,
-.notice--success,
-.notice {
-  border-radius: 14px;
-}
-
-.page {
-  margin-top: 1.2rem;
-}
-
-.page__footer,
-.archive__subtitle {
-  border-color: #e8edf3;
-}
-
-.page__content hr {
-  margin: 2rem 0;
-  border-bottom: 1px solid #e8edf3;
-}
-
-table {
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-@media (min-width: 80em) {
-  .page {
-    max-width: 1280px;
-  }
-}
+html[data-theme='dark'] body, body.dark-theme, .dark-theme body {background:#0f172a !important;color:#e5e7eb !important;}
+html[data-theme='dark'] .masthead, body.dark-theme .masthead, .dark-theme .masthead {background:#111827 !important;border-bottom:1px solid #374151 !important;}
+html[data-theme='dark'] .page__content p, html[data-theme='dark'] .page__content li, html[data-theme='dark'] .page__title,
+body.dark-theme .page__content p, body.dark-theme .page__content li, body.dark-theme .page__title,
+.dark-theme .page__content p, .dark-theme .page__content li, .dark-theme .page__title {color:#e5e7eb !important;}
+html[data-theme='dark'] .author__content, html[data-theme='dark'] .author__urls-wrapper, html[data-theme='dark'] .archive__item,
+body.dark-theme .author__content, body.dark-theme .author__urls-wrapper, body.dark-theme .archive__item,
+.dark-theme .author__content, .dark-theme .author__urls-wrapper, .dark-theme .archive__item {background:#1f2937 !important;border-color:#374151 !important;color:#e5e7eb !important;}
+html[data-theme='dark'] a, body.dark-theme a, .dark-theme a {color:#93c5fd !important;}
+@media (min-width:80em){.page{max-width:1280px;}}
