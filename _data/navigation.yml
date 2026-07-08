@@ -5,13 +5,16 @@ main:
   - title: "Investigación"
     url: /research/
 
-  - title: "Publicaciones"
-    url: /publications/
-
   - title: "Docencia"
     url: /teaching/
 
-  - title: "Liderazgo y Vinculación"
+  - title: "Recursos alumnos"
+    url: /recursos-alumnos/
+
+  - title: "Recursos pacientes"
+    url: /recursos-pacientes/
+
+  - title: "Liderazgo"
     url: /leadership/
 
   - title: "CV"
@@ -19,6 +22,3 @@ main:
 
   - title: "Contacto"
     url: /contact/
-
-  - title: "EN"
-    url: /en/
