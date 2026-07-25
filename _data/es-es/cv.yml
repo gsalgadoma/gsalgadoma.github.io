@@ -1,0 +1,113 @@
+- title: Información general
+  type: map
+  contents:
+    - name: Nombre completo
+      value: Gabriel Salgado Maldonado
+    - name: Profesión
+      value: Fonoaudiólogo
+    - name: Grado académico
+      value: Magíster en Epidemiología
+    - name: Idiomas
+      value: Español
+
+- title: Formación académica
+  type: time_table
+  contents:
+    - title: Magíster en Epidemiología
+      institution: Universidad de los Andes, Santiago, Chile
+      year: 2024
+      description:
+        - Formación en epidemiología, bioestadística e investigación en salud.
+
+    - title: Título profesional de Fonoaudiólogo
+      institution: Universidad del Desarrollo, Chile
+      year: 2009
+      description:
+        - Formación clínica en evaluación e intervención fonoaudiológica.
+
+    - title: Licenciatura
+      institution: Universidad del Desarrollo, Chile
+      year: 2008
+
+- title: Experiencia académica
+  type: time_table
+  contents:
+    - title: Profesor asistente extraordinario
+      institution: Universidad de los Andes, Santiago, Chile
+      year: 2025 - actualidad
+      description:
+        - Docencia en las escuelas de Fonoaudiología y Enfermería.
+        - Enseñanza de epidemiología, bioestadística, fisiología y salud pública.
+        - Participación en actividades de investigación y gestión académica.
+
+- title: Experiencia profesional
+  type: time_table
+  contents:
+    - title: Fonoaudiólogo
+      institution: Instituto Nacional del Tórax, Santiago, Chile
+      year: 2020 - 2026
+      description:
+        - Evaluación e intervención en comunicación, voz y deglución.
+        - Atención de personas hospitalizadas y pacientes con enfermedades respiratorias complejas.
+
+    - title: Fonoaudiólogo
+      institution: Hospital del Salvador, Santiago, Chile
+      year: 2014 - 2020
+      description:
+        - Evaluación e intervención en trastornos neurológicos de la comunicación y la deglución.
+
+    - title: Fonoaudiólogo
+      institution: Servicio de Salud Arauco, Chile
+      year: 2010 - 2014
+      description:
+        - Atención fonoaudiológica en la red asistencial.
+
+- title: Dirección de programas académicos
+  type: time_table
+  contents:
+    - title: Director del Diplomado en Fonoaudiología en Medicina Intensiva
+      institution: Universidad de los Andes
+      year: actualidad
+
+    - title: Director del Diplomado en Deglutología del Adulto
+      institution: Universidad de los Andes
+      year: actualidad
+
+- title: Participación en sociedades científicas
+  type: time_table
+  contents:
+    - title: Presidente
+      institution: Sociedad Chilena de Deglución y Alimentación
+      year: 2026 - actualidad
+
+    - title: Expresidente de la División de Fonoaudiología y Terapia Ocupacional Intensiva
+      institution: Sociedad Chilena de Medicina Intensiva
+      year: periodo previo
+
+- title: Áreas de interés académico
+  type: nested_list
+  contents:
+    - title: Fonoaudiología en medicina intensiva
+      items:
+        - Evaluación e intervención de la deglución.
+        - Comunicación en cuidados intensivos.
+        - Traqueostomía y vía aérea avanzada.
+        - Tos, voz y mecanismos protectores de la vía aérea.
+
+    - title: Epidemiología y salud pública
+      items:
+        - Epidemiología clínica.
+        - Bioestadística aplicada.
+        - Investigación en salud.
+        - Evaluación de intervenciones sanitarias.
+
+    - title: Docencia
+      items:
+        - Innovación educativa.
+        - Evaluación de aprendizajes.
+        - Formación clínica y metodológica.
+
+- title: Otros intereses
+  type: list
+  contents:
+    - <u>Intereses:</u> investigación, docencia, divulgación científica y desarrollo académico.
