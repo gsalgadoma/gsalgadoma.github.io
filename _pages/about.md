@@ -15,7 +15,7 @@ Voz, deglución, vía aérea, cuidados intensivos, epidemiología y salud públi
 ## Roles actuales de liderazgo
 
 - **Presidente**, Sociedad Chilena de Deglución y Alimentación (SOCHIDA)
-- **Académico**, Universidad de los Andes
+- **Académico**, Facultad de Enfermería y Obstetricia Universidad de los Andes
 - **Director**, Diplomado de Fonoaudiología en Medicina Intensiva, Universidad de los Andes
 - **Director**, Diplomado en Deglutología del Adulto, Universidad de los Andes
 
