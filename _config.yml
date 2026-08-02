@@ -105,14 +105,6 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
 category_archive:
   type: liquid
   path: /categories/

@@ -31,14 +31,6 @@ python3 "$PYTHON_SCRIPT" --input "$CV_MARKDOWN" --output "$CV_JSON" --config "$C
 # Check if the conversion was successful
 if [ $? -eq 0 ]; then
   echo "Successfully updated CV JSON file at $CV_JSON"
-  
-  # Optional: Build the Jekyll site to see the changes
-  echo "Would you like to build the Jekyll site to see the changes? (y/n)"
-  read -r answer
-  if [[ "$answer" =~ ^[Yy]$ ]]; then
-    echo "Building Jekyll site..."
-    cd "$BASE_DIR" && bundle exec jekyll serve
-  fi
 else
   echo "Error: Failed to update CV JSON file"
   exit 1
