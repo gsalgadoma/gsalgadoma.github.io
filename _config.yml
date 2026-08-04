@@ -12,7 +12,7 @@ url                      : https://gsalgadoma.github.io
 baseurl                  : ""
 repository               : "gsalgadoma/gsalgadoma.github.io"
 
-#autor (sidebar)
+#author (sidebar)
 author:
   avatar           : "profile.png.jpg"
   name             : "Gabriel Salgado Maldonado"
@@ -29,6 +29,13 @@ author:
   instagram        : "fonoaudiologiainforma"
   twitter          : "gsalgadoma"
   linkedin         : "gabriel-salgado-maldonado"
+  academia         : 
+  arxiv            : 
+  semantic         : 
+  impactstory      : 
+  pubmed           : 
+  scopus           : 
+  inspire-hep      : 
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
