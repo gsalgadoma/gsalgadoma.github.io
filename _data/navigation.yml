@@ -8,11 +8,12 @@ main:
   - title: "Docencia"
     url: /teaching/
 
-  - title: "Recursos alumnos"
-    url: /recursos-alumnos/
-
-  - title: "Recursos pacientes"
-    url: /recursos-pacientes/
+  - title: "Recursos"
+    children:
+      - title: "Pacientes"
+        url: /recursos-pacientes/
+      - title: "Alumnos"
+        url: /recursos-alumnos/
 
   - title: "Liderazgo"
     url: /leadership/
