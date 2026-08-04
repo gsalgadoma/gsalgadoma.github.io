@@ -12,7 +12,7 @@ url                      : https://gsalgadoma.github.io
 baseurl                  : ""
 repository               : "gsalgadoma/gsalgadoma.github.io"
 
-#author (sidebar)
+#autor (sidebar)
 author:
   avatar           : "profile.png.jpg"
   name             : "Gabriel Salgado Maldonado"
@@ -24,18 +24,11 @@ author:
   email            : "gsalgadom@uandes.cl"
   googlescholar    : "https://scholar.google.com/citations?user=lUJ6RBoAAAAJ"
   orcid            : "https://orcid.org/0000-0002-4897-8863"
-  researchgate     : 
+  researchgate     :
   github           : "gsalgadoma"
   instagram        : "fonoaudiologiainforma"
   twitter          : "gsalgadoma"
   linkedin         : "gabriel-salgado-maldonado"
-  academia         : 
-  arxiv            : 
-  semantic         : 
-  impactstory      : 
-  pubmed           : 
-  scopus           : 
-  inspire-hep      : 
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
