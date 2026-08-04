@@ -1,19 +1,27 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site.
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
+# Basic Site Settings
 locale                   : "es-CL"
-site_theme               : "default"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Gabriel Salgado Maldonado"
 title_separator          : "-"
-name                     : "Gabriel Salgado Maldonado"
-description              : "Profesor Instructor, Escuela de Enfermeria, Facultad de Enfermeria y Obstetricia Universidad de los Andes (Chile)."
+name                     : &name "Gabriel Salgado Maldonado"
+description              : &description "Profesor Instructor, Escuela de Enfermeria, Facultad de Enfermeria y Obstetricia Universidad de los Andes (Chile)."
 url                      : https://gsalgadoma.github.io
 baseurl                  : ""
 repository               : "gsalgadoma/gsalgadoma.github.io"
 
-#autor (sidebar)
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
+  # Biographic information
   avatar           : "profile.png.jpg"
   name             : "Gabriel Salgado Maldonado"
   pronouns         : "he/him"
@@ -22,13 +30,55 @@ author:
   employer         : "Universidad de los Andes"
   uri              : ""
   email            : "gsalgadom@uandes.cl"
+
+  # Academic websites
+  academia         :
+  arxiv            :
   googlescholar    : "https://scholar.google.com/citations?user=lUJ6RBoAAAAJ"
+  inspire-hep      :
+  impactstory      :
   orcid            : "https://orcid.org/0000-0002-4897-8863"
+  semantic         :
+  ssrn             :
+  pubmed           :
   researchgate     :
+  scopus           :
+  zotero           :
+
+  # Repositories and software development
+  bitbucket        :
+  codepen          :
+  dribbble         :
   github           : "gsalgadoma"
+  kaggle           :
+  stackoverflow    :
+
+  # Social media
+  artstation       :
+  bluesky          :
+  facebook         :
+  flickr           :
+  foursquare       :
+  goodreads        :
+  google_plus      :
+  keybase          :
   instagram        : "fonoaudiologiainforma"
-  twitter          : "gsalgadoma"
+  lastfm           :
   linkedin         : "gabriel-salgado-maldonado"
+  mastodon         :
+  medium           :
+  pinterest        :
+  soundcloud       :
+  steam            :
+  telegram         :
+  tumblr           :
+  twitter          : "gsalgadoma"
+  vine             :
+  weibo            :
+  wikipedia        :
+  xing             :
+  youtube          :
+  zhihu            :
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -46,21 +96,109 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled"
 talkmap_link             : false
+comments:
+  provider               :
+  disqus:
+    shortname            :
+  discourse:
+    server               :
+  facebook:
+    appid                :
+    num_posts            :
+    colorscheme          :
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
+atom_feed:
+  hide                   : false
+  path                   :
 
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :
+og_description           :
+# For specifying social profiles
+social:
+  type                   :
+  name                   :
+  links:
+
+# Analytics
+analytics:
+  provider               :  "false"
+  google:
+    tracking_id          :
+
+# Reading Files
 include:
   - .htaccess
   - _pages
   - files
 exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
   - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -71,6 +209,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# These settings control the types of collections used by the template
 collections:
   teaching:
     output: true
@@ -85,21 +224,66 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+# These settings control how pages and collections are included in the site
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
+# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
+# Outputting
 permalink: /:categories/:title/
 timezone: America/Santiago
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -108,6 +292,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
+# Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -116,6 +301,7 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
@@ -123,6 +309,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# HTML Compression
 compress_html:
   clippings: all
   ignore:
