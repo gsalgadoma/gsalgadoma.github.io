@@ -34,8 +34,6 @@ import os
 # In[3]:
 
 talks = pd.read_csv("talks.tsv", sep="\t", header=0)
-talks
-
 
 # ## Escape special characters
 # 

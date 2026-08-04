@@ -4,7 +4,7 @@
   "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/academicpages/gsalgadoma.github.io"
+    "url": "https://github.com/gsalgadoma/gsalgadoma.github.io"
   },
   "keywords": [
     "jekyll",
@@ -17,9 +17,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/academicpages/gsalgadoma.github.io/issues"
+    "url": "https://github.com/gsalgadoma/gsalgadoma.github.io/issues"
   },
-  "homepage": "https://github.com/academicpages/gsalgadoma.github.io",
+  "homepage": "https://github.com/gsalgadoma/gsalgadoma.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -30,10 +30,10 @@
   },
   "devDependencies": {
     "onchange": "^7.1.0",
-    "uglify-js": "^3.17.4"
+    "terser": "^5.0.0"
   },
   "scripts": {
-    "uglify": "uglifyjs node_modules/jquery/dist/jquery.min.js node_modules/fitvids/dist/fitvids.min.js node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js -c -m -o assets/js/main.min.js",
+    "uglify": "terser node_modules/jquery/dist/jquery.min.js node_modules/fitvids/dist/fitvids.min.js node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js --compress --mangle --module -o assets/js/main.min.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify"
   }
