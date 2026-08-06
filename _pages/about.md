@@ -7,11 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<div class="notice--primary" style="padding:1.25rem 1.4rem; margin-bottom:1.5rem; border-radius:16px;">
-<strong>Académico, clínico e investigador</strong><br>
-Voz, deglución, vía aérea, cuidados intensivos, epidemiología y salud pública.
-</div>
-
 ## Roles actuales de liderazgo
 
 - **Presidente**, Sociedad Chilena de Deglución y Alimentación (SOCHIDA)
