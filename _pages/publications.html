@@ -2,19 +2,88 @@
 layout: archive
 title: "Publicaciones"
 permalink: /publications/
+excerpt: "Producción científica en deglución, rehabilitación, medicina intensiva, epidemiología clínica y salud pública."
 author_profile: true
 ---
 
-Investigación científica, protocolos, publicaciones indexadas y producción académica vinculada a voz, deglución, vía aérea, rehabilitación y salud pública.
+<style>
+.publications-profile { font-size: 0.92rem; line-height: 1.7; color: var(--global-text-color); }
+.publications-profile h2 { font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 2px solid var(--global-border-color); padding-bottom: 0.35rem; margin-top: 2rem; margin-bottom: 1rem; }
+.publications-lead { font-size: 1.05rem; line-height: 1.65; margin-bottom: 1.2rem; }
+.publications-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.85rem; margin: 1rem 0 1.4rem; }
+.publications-card { border: 1px solid var(--global-border-color); border-radius: 6px; padding: 0.9rem 1rem; background: var(--global-bg-color); }
+.publications-card strong { display: block; font-size: 0.9rem; margin-bottom: 0.25rem; }
+.publications-card span { font-size: 0.8rem; opacity: 0.8; }
+.publications-featured { border-left: 3px solid #2a5db0; padding: 0.25rem 0 0.25rem 0.9rem; margin-bottom: 1rem; }
+.publications-featured p { margin: 0.18rem 0; }
+.publications-featured .meta { font-size: 0.8rem; opacity: 0.8; }
+.publications-featured a { font-weight: 600; text-decoration: none; }
+.publications-featured a:hover { text-decoration: underline; }
+.publications-actions { margin: 1rem 0 1.4rem; }
+.publications-button { display: inline-block; background: #2a5db0; color: #fff !important; padding: 7px 14px; border-radius: 4px; font-size: 0.84rem; font-weight: 600; text-decoration: none !important; margin: 0.25rem 0.4rem 0.25rem 0; }
+.publications-note { border: 1px solid var(--global-border-color); border-radius: 6px; padding: 0.9rem 1rem; margin: 1rem 0; font-size: 0.86rem; }
+.publications-list h2 { margin-top: 2.2rem; }
+</style>
 
+<div class="publications-profile">
+
+<p class="publications-lead">Mi producción académica se sitúa en la intersección entre <strong>fonoaudiología, rehabilitación, medicina intensiva, epidemiología clínica y salud pública</strong>, con especial interés en problemas clínicos complejos y en la generación de evidencia aplicable a la práctica.</p>
+
+<p>Esta sección reúne artículos científicos, protocolos, revisiones, trabajos presentados en congresos y otras contribuciones académicas registradas en el sitio.</p>
+
+<div class="publications-grid">
+  <div class="publications-card">
+    <strong>Deglución y vía aérea</strong>
+    <span>Disfagia, soporte respiratorio, mecanismos protectores y cuidados intensivos.</span>
+  </div>
+  <div class="publications-card">
+    <strong>Epidemiología y resultados</strong>
+    <span>Estudios observacionales, registros, resultados clínicos y síntesis de evidencia.</span>
+  </div>
+  <div class="publications-card">
+    <strong>Salud pública y prevención</strong>
+    <span>Evaluación de intervenciones, prevención y aplicaciones poblacionales.</span>
+  </div>
+</div>
+
+<div class="publications-actions">
 {% if site.author.googlescholar %}
-  <div class="notice--primary" style="padding:1rem; margin:1rem 0;">Revisa métricas y listado ampliado en mi <a href="{{site.author.googlescholar}}">perfil de Google Scholar</a>.</div>
+  <a class="publications-button" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar ↗</a>
 {% endif %}
+{% if site.author.orcid %}
+  <a class="publications-button" href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID ↗</a>
+{% endif %}
+  <a class="publications-button" href="/research/">Líneas de investigación</a>
+</div>
 
+<h2>Publicaciones recientes</h2>
+
+{% assign recent_publications = site.publications | sort: 'date' | reverse %}
+{% assign recent_count = 0 %}
+{% for post in recent_publications %}
+  {% if post.category == 'manuscripts' and recent_count < 4 %}
+    <div class="publications-featured">
+      <p><strong>{{ post.title }}</strong></p>
+      <p class="meta">{% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}</p>
+      <p>
+        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">Ver publicación ↗</a>{% else %}<a href="{{ post.url | relative_url }}">Ver ficha</a>{% endif %}
+      </p>
+    </div>
+    {% assign recent_count = recent_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<div class="publications-note">
+<strong>Nota.</strong> La producción mostrada corresponde a los registros incorporados en este sitio. Para métricas de citación y un listado complementario, consulta Google Scholar y ORCID.
+</div>
+
+<h2>Producción académica completa</h2>
+
+<div class="publications-list">
 {% include base_path %}
 
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -32,3 +101,6 @@ Investigación científica, protocolos, publicaciones indexadas y producción ac
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
+</div>
+
+</div>
