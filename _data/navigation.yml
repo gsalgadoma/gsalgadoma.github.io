@@ -5,12 +5,17 @@ main:
   - title: "Investigación"
     url: /research/
 
+  - title: "Publicaciones"
+    url: /publications/
+
   - title: "Docencia"
     url: /teaching/
 
   - title: "Recursos"
     children:
-      - title: "Pacientes"
+      - title: "Documentos profesionales"
+        url: /recursos-profesionales/
+      - title: "Pacientes y cuidadores"
         url: /recursos-pacientes/
       - title: "Alumnos"
         url: /recursos-alumnos/
