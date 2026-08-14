@@ -1,5 +1,5 @@
 ---
-title: "Recursos pacientes"
+title: "Pacientes y cuidadores"
 permalink: /recursos-pacientes/
 author_profile: true
 ---
