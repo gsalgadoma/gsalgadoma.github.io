@@ -27,6 +27,10 @@ redirect_from:
 
 <p class="cv-lead"><strong>Fonoaudiólogo y Magíster en Epidemiología</strong>, con experiencia clínica, académica y de gestión en salud. La trayectoria integra rehabilitación de personas adultas, medicina intensiva, docencia universitaria, investigación aplicada, salud pública y liderazgo profesional.</p>
 
+<a class="cv-button" href="/files/Gabriel_Salgado_CV.pdf" target="_blank" rel="noopener">Descargar CV académico (PDF)</a>
+<a class="cv-button" href="/research/">Investigación</a>
+<a class="cv-button" href="/publications/">Publicaciones</a>
+
 <div class="cv-grid">
   <div class="cv-card">
     <h3>Perfil clínico</h3>
@@ -46,10 +50,10 @@ redirect_from:
 
 <div class="cv-entry">
   <p><strong>Magíster en Epidemiología</strong> · Universidad de los Andes</p>
-  <p class="date">2024</p>
+  <p class="date">2017–2018</p>
 </div>
 <div class="cv-entry">
-  <p><strong>Fonoaudiólogo</strong> · Universidad del Desarrollo</p>
+  <p><strong>Fonoaudiólogo, titulado con distinción</strong> · Universidad del Desarrollo</p>
   <p class="date">2009</p>
 </div>
 <div class="cv-entry">
@@ -60,14 +64,24 @@ redirect_from:
 <h2>Experiencia académica</h2>
 
 <div class="cv-entry">
-  <p><strong>Universidad de los Andes · Escuela de Enfermería</strong></p>
-  <p class="date">2025 – Presente</p>
-  <p>Docencia de pregrado en salud pública, epidemiología, bioestadística, investigación y ciencias de la salud.</p>
+  <p><strong>Profesor Asistente Extraordinario · Universidad de los Andes · Escuela de Fonoaudiología</strong></p>
+  <p class="date">Noviembre 2025 – Presente</p>
+  <p>Docencia en Salud Pública, Rehabilitación Basada en la Comunidad y posgrado.</p>
 </div>
 <div class="cv-entry">
-  <p><strong>Universidad de los Andes · Escuela de Fonoaudiología</strong></p>
-  <p class="date">2023 – Presente</p>
-  <p>Docencia de pregrado y posgrado en evaluación e intervención de personas adultas, salud pública, rehabilitación y formación clínica avanzada.</p>
+  <p><strong>Docente Instructor · Universidad de los Andes · Escuela de Enfermería</strong></p>
+  <p class="date">Agosto 2025 – Presente</p>
+  <p>Coordinación del Minor de Salud Pública y docencia en Epidemiología y Salud Pública, Fisiología, Seminario de Investigación y Bioestadística.</p>
+</div>
+<div class="cv-entry">
+  <p><strong>Director · Diplomado de Deglutología del Adulto</strong></p>
+  <p class="date">Mayo 2026 – Presente</p>
+  <p>Dirección académica, coordinación de actividades y docencia de posgrado.</p>
+</div>
+<div class="cv-entry">
+  <p><strong>Director · Diplomado de Fonoaudiología en Medicina Intensiva</strong></p>
+  <p class="date">Mayo 2024 – Presente</p>
+  <p>Dirección académica, coordinación y docencia de posgrado.</p>
 </div>
 <div class="cv-entry">
   <p><strong>Universidad Internacional SEK · Escuela de Fonoaudiología</strong></p>
@@ -76,64 +90,61 @@ redirect_from:
 </div>
 <div class="cv-entry">
   <p><strong>Universidad del Desarrollo · Escuela de Fonoaudiología</strong></p>
-  <p class="date">2013</p>
-  <p>Tutoría clínica en formación profesional.</p>
+  <p class="date">2006 – 2009 / Docencia clínica 2017</p>
+  <p>Ayudantías académicas y docencia clínica en formación profesional.</p>
 </div>
 
 <h2>Experiencia profesional</h2>
 
 <div class="cv-entry">
-  <p><strong>Universidad de los Andes</strong></p>
-  <p class="date">Agosto 2025 – Presente</p>
-  <p>Actividad académica, docencia y participación en iniciativas universitarias en ciencias de la salud.</p>
-</div>
-<div class="cv-entry">
   <p><strong>Instituto Nacional del Tórax</strong></p>
-  <p class="date">Junio 2020 – Abril 2026</p>
-  <p>Atención clínica especializada, docencia clínica, formación de estudiantes y participación en comités institucionales de investigación y ética asistencial.</p>
+  <p class="date">Junio 2015 – Abril 2026</p>
+  <p>Atención clínica en UCI, UPC, intermedio y médico-quirúrgico; deglución, vía aérea, FEES junto a Otorrinolaringología, medicina del sueño y rehabilitación.</p>
 </div>
 <div class="cv-entry">
   <p><strong>Hospital del Salvador · Servicio de Neurología</strong></p>
   <p class="date">Noviembre 2014 – Junio 2020</p>
-  <p>Atención clínica de personas con condiciones neurológicas, con énfasis en comunicación, deglución y rehabilitación.</p>
+  <p>Atención hospitalaria y ambulatoria en deglución, habla, lenguaje y cognición; participación en unidades de neurología cognitiva y clínica de memoria.</p>
 </div>
 <div class="cv-entry">
-  <p><strong>Servicio de Salud Arauco</strong></p>
-  <p class="date">Octubre 2010 – Mayo 2014</p>
-  <p>Desarrollo de programas de salud laboral, gestión sanitaria y coordinación de equipos.</p>
+  <p><strong>Laboratorio de Neuropsicología y Neurociencias Clínicas (LANNEC)</strong></p>
+  <p class="date">Marzo 2017 – Presente</p>
+  <p>Participación en evaluaciones cognitivas en demencias y afasias progresivas primarias.</p>
+</div>
+<div class="cv-entry">
+  <p><strong>Servicio de Salud Arauco · Unidad Salud del Personal</strong></p>
+  <p class="date">Octubre 2010 – Abril 2014</p>
+  <p>Gestión de salud laboral, ausentismo, listas de espera y capacitación funcionaria.</p>
+</div>
+<div class="cv-entry">
+  <p><strong>Ejercicio libre de la profesión</strong></p>
+  <p class="date">2017 – Presente</p>
+  <p>Evaluación e intervención en habla, lenguaje, deglución, voz y cognición.</p>
 </div>
 
-<h2>Liderazgo y servicio profesional</h2>
+<h2>Liderazgo y servicio</h2>
 
 <div class="cv-entry">
-  <p><strong>Sociedad Chilena de Deglución y Alimentación (SOCHIDA)</strong></p>
-  <p>Presidencia y participación activa en desarrollo científico, profesional y formación continua.</p>
+  <p><strong>Sociedad Chilena de Alimentación y Deglución (SOCHIDA)</strong></p>
+  <p class="date">Socio activo desde 2020 · Presidente 2025–2026</p>
 </div>
 <div class="cv-entry">
   <p><strong>Sociedad Chilena de Medicina Intensiva (SOCHIMI)</strong></p>
-  <p>Ex Presidente de la División de Fonoaudiología y Terapia Ocupacional Intensiva y participación profesional en cuidados críticos.</p>
+  <p class="date">Socio activo desde 2017 · Presidente División de Fonoaudiología y Terapia Ocupacional Intensiva 2021–2022</p>
 </div>
 <div class="cv-entry">
-  <p><strong>Dirección de programas de educación continua</strong></p>
-  <p>Dirección de diplomados orientados a fonoaudiología en medicina intensiva y deglutología del adulto.</p>
+  <p><strong>Comités y asesorías</strong></p>
+  <p>Comité de Investigación y Comité Ético Asistencial del Instituto Nacional del Tórax; paneles de expertos MINSAL y FONASA; revisión editorial invitada.</p>
 </div>
 
-<h2>Competencias profesionales</h2>
-
+<h2>Competencias</h2>
 <ul>
-  <li>Integración clínica y académica en contextos de salud.</li>
-  <li>Epidemiología aplicada y análisis de evidencia.</li>
-  <li>Diseño y evaluación de actividades formativas.</li>
-  <li>Trabajo interdisciplinario y coordinación de equipos.</li>
-  <li>Liderazgo académico y profesional.</li>
-  <li>Perspectiva de salud pública, acceso, calidad y continuidad del cuidado.</li>
+  <li>Deglución, vía aérea, comunicación, voz y rehabilitación en personas adultas.</li>
+  <li>Epidemiología clínica, análisis de datos, síntesis de evidencia y resultados en salud.</li>
+  <li>Docencia universitaria, diseño de programas y formación de profesionales.</li>
+  <li>Gestión sanitaria, liderazgo científico y trabajo interdisciplinario.</li>
+  <li>Herramientas: Stata, gestores bibliográficos, Rayyan, Microsoft Office; nasofibroscopía, ecografía de vía aérea y análisis acústico de voz.</li>
 </ul>
-
-<div>
-  <a class="cv-button" href="/research/">Investigación</a>
-  <a class="cv-button" href="/publications/">Publicaciones</a>
-  <a class="cv-button" href="/leadership/">Liderazgo</a>
-</div>
 
 <div class="cv-dynamic">
 
@@ -142,12 +153,12 @@ redirect_from:
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-<h2>Charlas y presentaciones</h2>
+<h2>Charlas</h2>
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>
 
-<h2>Registro docente</h2>
+<h2>Docencia registrada</h2>
 <ul>{% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
