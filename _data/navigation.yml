@@ -12,6 +12,7 @@ main:
     url: /teaching/
 
   - title: "Recursos"
+    url: /recursos/
     children:
       - title: "Documentos profesionales"
         url: /recursos-profesionales/
