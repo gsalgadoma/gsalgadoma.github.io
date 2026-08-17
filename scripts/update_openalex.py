@@ -16,6 +16,7 @@ from pathlib import Path
 ORCID = "0000-0002-4897-8863"
 OUTPUT = Path("_data/openalex.json")
 API_BASE = "https://api.openalex.org"
+WORK_FIELDS = "id,display_name,publication_year,publication_date,type,doi,cited_by_count,open_access,primary_location"
 
 
 def get_json(url: str, api_key: str) -> dict:
@@ -47,6 +48,25 @@ def compact_work(work: dict) -> dict:
     }
 
 
+def get_author_works(author_id: str, api_key: str) -> list[dict]:
+    works = []
+    cursor = "*"
+    while cursor:
+        params = urllib.parse.urlencode(
+            {
+                "filter": f"authorships.author.id:{author_id}",
+                "per-page": 100,
+                "cursor": cursor,
+                "sort": "publication_date:desc",
+                "select": WORK_FIELDS,
+            }
+        )
+        response = get_json(f"{API_BASE}/works?{params}", api_key)
+        works.extend(compact_work(work) for work in response.get("results", []))
+        cursor = (response.get("meta") or {}).get("next_cursor")
+    return works
+
+
 def main() -> int:
     api_key = os.environ.get("OPENALEX_API_KEY")
     if not api_key:
@@ -58,17 +78,7 @@ def main() -> int:
     if not author_id:
         raise RuntimeError("OpenAlex no devolvió un author ID para el ORCID configurado")
 
-    params = urllib.parse.urlencode(
-        {
-            "filter": f"author.id:{author_id}",
-            "per-page": 200,
-            "sort": "publication_date:desc",
-            "select": "id,display_name,publication_year,publication_date,type,doi,cited_by_count,open_access,primary_location",
-        }
-    )
-    works_response = get_json(f"{API_BASE}/works?{params}", api_key)
-    works = [compact_work(work) for work in works_response.get("results", [])]
-
+    works = get_author_works(author_id, api_key)
     payload = {
         "status": "ok",
         "orcid": ORCID,
