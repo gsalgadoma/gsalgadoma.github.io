@@ -22,7 +22,7 @@ author_profile: true
 .publications-actions { margin: 1rem 0 1.4rem; }
 .publications-button { display: inline-block; background: #2a5db0; color: #fff !important; padding: 7px 14px; border-radius: 4px; font-size: 0.84rem; font-weight: 600; text-decoration: none !important; margin: 0.25rem 0.4rem 0.25rem 0; }
 .publications-note { border: 1px solid var(--global-border-color); border-radius: 6px; padding: 0.9rem 1rem; margin: 1rem 0; font-size: 0.86rem; }
-.publications-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.65rem; margin: 1rem 0 1.4rem; }
+.publications-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.65rem; margin: 1rem 0 1.4rem; }
 .publications-metric { border: 1px solid var(--global-border-color); border-radius: 6px; padding: 0.8rem 0.9rem; text-align: center; background: var(--global-bg-color); }
 .publications-metric strong { display: block; font-size: 1.3rem; color: #2a5db0; line-height: 1.2; }
 .publications-metric span { display: block; font-size: 0.75rem; opacity: 0.78; margin-top: 0.2rem; }
@@ -64,15 +64,14 @@ author_profile: true
   <a class="publications-button" href="/research/">Líneas de investigación</a>
 </div>
 
-{% if site.data.openalex.status == 'ok' %}
+{% if site.data.openalex.status == 'ok' and site.data.openalex.mode == 'verified_doi' %}
 <h2>Indicadores bibliométricos</h2>
-<div class="publications-metrics" aria-label="Indicadores bibliométricos de OpenAlex">
-  <div class="publications-metric"><strong>{{ site.data.openalex.works_count }}</strong><span>trabajos en OpenAlex</span></div>
-  <div class="publications-metric"><strong>{{ site.data.openalex.cited_by_count }}</strong><span>citas en OpenAlex</span></div>
-  {% if site.data.openalex.h_index != nil %}<div class="publications-metric"><strong>{{ site.data.openalex.h_index }}</strong><span>índice h</span></div>{% endif %}
-  {% if site.data.openalex.i10_index != nil %}<div class="publications-metric"><strong>{{ site.data.openalex.i10_index }}</strong><span>índice i10</span></div>{% endif %}
+<div class="publications-metrics" aria-label="Indicadores bibliométricos de OpenAlex sobre publicaciones verificadas">
+  <div class="publications-metric"><strong>{{ site.data.openalex.verified_works_found }}</strong><span>publicaciones verificadas encontradas</span></div>
+  <div class="publications-metric"><strong>{{ site.data.openalex.verified_citations }}</strong><span>citas en publicaciones verificadas</span></div>
+  <div class="publications-metric"><strong>{{ site.data.openalex.open_access_count }}</strong><span>publicaciones en acceso abierto</span></div>
 </div>
-<p class="publications-source">Fuente: OpenAlex · última sincronización {{ site.data.openalex.updated_at | date: "%d-%m-%Y" }}. Las métricas pueden diferir de Google Scholar, Scopus u otras bases por sus criterios de cobertura e indexación.</p>
+<p class="publications-source">Fuente: OpenAlex · última sincronización {{ site.data.openalex.updated_at | date: "%d-%m-%Y" }}. Las métricas se calculan exclusivamente sobre DOI previamente verificados como parte de mi producción académica, evitando atribuciones automáticas incorrectas del perfil de autor.</p>
 {% endif %}
 
 <h2>Publicaciones recientes</h2>
@@ -93,7 +92,7 @@ author_profile: true
 {% endfor %}
 
 <div class="publications-note">
-<strong>Nota.</strong> La producción mostrada corresponde a los registros curados incorporados en este sitio. Los indicadores de OpenAlex, cuando están disponibles, se actualizan automáticamente y se presentan como una fuente bibliométrica complementaria a Google Scholar y ORCID.
+<strong>Nota.</strong> La producción mostrada corresponde a registros curados incorporados en este sitio. OpenAlex se utiliza como fuente complementaria para citas, acceso abierto y metadatos de publicaciones verificadas por DOI; la inclusión en el sitio no depende de la desambiguación automática de autores de OpenAlex.
 </div>
 
 <h2>Producción académica completa</h2>
