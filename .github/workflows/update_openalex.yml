@@ -2,6 +2,13 @@ name: Actualizar perfil OpenAlex
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - 'scripts/update_openalex.py'
+      - '_data/openalex_verified_works.json'
+      - '.github/workflows/update_openalex.yml'
   schedule:
     - cron: '17 8 * * 1'
 
