@@ -12,6 +12,12 @@ Entregar orientaciones generales, comprensibles y basadas en evidencia para apoy
 
 ## Temas principales
 
+### Afasia y comunicación
+
+Información educativa para comprender qué es la afasia, sus causas y perfiles, cómo se evalúa y cuáles son los principales enfoques de rehabilitación, considerando también la participación y el entorno de la persona.
+
+[Acceder al recurso informativo sobre afasia →](/afasia/)
+
 ### Deglución y disfagia
 
 Información general sobre dificultades para tragar, signos de alerta, seguridad durante la alimentación, consistencias, estrategias compensatorias y criterios para consultar oportunamente.

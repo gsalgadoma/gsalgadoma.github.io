@@ -43,6 +43,7 @@ author_profile: true
 <h2>Recursos destacados</h2>
 
 <ul>
+  <li><a href="/afasia/"><strong>Afasia: comprender, evaluar y rehabilitar</strong></a> — guía educativa sobre causas, perfiles clínicos, evaluación, rehabilitación y participación en la vida cotidiana.</li>
   <li><a href="/voz-deglucion/"><strong>Deglución y Enfermedad Respiratoria Crónica</strong></a> — material del Curso de Voz y Deglución de Clínica Universidad de los Andes.</li>
   <li><a href="/clad-cancun-2026/"><strong>CLAD Cancún 2026</strong></a> — presentación y recursos sobre deglución en adultos con cánula nasal de alto flujo.</li>
 </ul>
