@@ -21,6 +21,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -36,10 +39,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Conserva el JSON recién generado y sincroniza la rama con el master remoto
+          # antes de publicar, evitando rechazos non-fast-forward en ejecuciones relanzadas.
+          cp _data/openalex.json /tmp/openalex.json
+          git fetch origin master
+          git reset --hard origin/master
+          cp /tmp/openalex.json _data/openalex.json
+
           git add _data/openalex.json
           if git diff --cached --quiet; then
             echo "Los datos de OpenAlex no cambiaron."
           else
             git commit -m "Actualiza métricas OpenAlex"
-            git push
+            git push origin HEAD:master
           fi
