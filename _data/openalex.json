@@ -5,13 +5,13 @@
   "author_id": "A5078238228",
   "author_url": "https://openalex.org/A5078238228",
   "display_name": "Gabriel Salgado-Maldonado",
-  "verified_dois_count": 8,
-  "verified_works_found": 8,
+  "verified_dois_count": 9,
+  "verified_works_found": 9,
   "verified_citations": 16,
-  "open_access_count": 8,
+  "open_access_count": 9,
   "missing_in_openalex_count": 0,
   "missing_in_openalex": [],
-  "updated_at": "2026-08-27T02:59:53.836550+00:00",
+  "updated_at": "2026-08-27T04:41:07.118885+00:00",
   "works": [
     {
       "id": "https://openalex.org/W7169852857",
@@ -96,6 +96,20 @@
       "oa_status": "gold",
       "source": null,
       "landing_page_url": "https://doi.org/10.37766/inplasy2022.11.0078"
+    },
+    {
+      "id": "https://openalex.org/W4294203155",
+      "title": "Acceptability y feasibility of “Yo Sé Lo Que Quiero (YSLQQ)” (Unplugged) program: a drug prevention intervention for adolescents in Chile",
+      "verified_title": "Acceptability y feasibility of ‘Yo Sé Lo Que Quiero (YSLQQ)’ (Unplugged) program: a drug prevention intervention for adolescents in Chile",
+      "publication_year": 2022,
+      "publication_date": "2022-06-01",
+      "type": "article",
+      "doi": "https://doi.org/10.1192/j.eurpsy.2022.624",
+      "cited_by_count": 0,
+      "is_open_access": true,
+      "oa_status": "gold",
+      "source": "European Psychiatry",
+      "landing_page_url": "https://doi.org/10.1192/j.eurpsy.2022.624"
     },
     {
       "id": "https://openalex.org/W3108491212",
