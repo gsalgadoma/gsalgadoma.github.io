@@ -28,9 +28,9 @@ author_profile: true
   </div>
 
   <div class="resources-card">
-    <h3>Diplomados en Fonoaudiología</h3>
-    <p>Directorio de programas ofrecidos por universidades chilenas, con búsqueda y filtros por institución, área y modalidad.</p>
-    <a class="resources-button" href="/diplomados-fonoaudiologia/">Explorar diplomados →</a>
+    <h3>Postgrados en Fonoaudiología</h3>
+    <p>Directorio de diplomados y magísteres ofrecidos por universidades chilenas, con búsqueda y filtros por tipo, institución, área y modalidad.</p>
+    <a class="resources-button" href="/diplomados-fonoaudiologia/">Explorar postgrados →</a>
   </div>
 
   <div class="resources-card">
@@ -49,7 +49,7 @@ author_profile: true
 <h2>Recursos destacados</h2>
 
 <ul>
-  <li><a href="/diplomados-fonoaudiologia/"><strong>Diplomados en Fonoaudiología en Chile</strong></a> — directorio filtrable de programas universitarios con acceso a sus páginas oficiales.</li>
+  <li><a href="/diplomados-fonoaudiologia/"><strong>Postgrados en Fonoaudiología en Chile</strong></a> — directorio filtrable de diplomados y magísteres con acceso a sus páginas oficiales.</li>
   <li><a href="/afasia/"><strong>Afasia: comprender, evaluar y rehabilitar</strong></a> — guía educativa sobre causas, perfiles clínicos, evaluación, rehabilitación y participación en la vida cotidiana.</li>
   <li><a href="/voz-deglucion/"><strong>Deglución y Enfermedad Respiratoria Crónica</strong></a> — material del Curso de Voz y Deglución de Clínica Universidad de los Andes.</li>
   <li><a href="/clad-cancun-2026/"><strong>CLAD Cancún 2026</strong></a> — presentación y recursos sobre deglución en adultos con cánula nasal de alto flujo.</li>
