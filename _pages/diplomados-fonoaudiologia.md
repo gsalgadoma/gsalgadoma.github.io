@@ -1,0 +1,103 @@
+---
+title: "Diplomados en Fonoaudiología en Chile"
+permalink: /diplomados-fonoaudiologia/
+excerpt: "Directorio de diplomados vinculados con la fonoaudiología ofrecidos por universidades chilenas."
+author_profile: true
+---
+
+<style>
+.dip-directory{font-size:.92rem;line-height:1.65;color:var(--global-text-color)}
+.dip-lead{font-size:1.04rem;max-width:820px;margin-bottom:.55rem}
+.dip-note{font-size:.8rem;opacity:.78;margin-bottom:1.25rem}
+.dip-toolbar{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:.65rem;margin:1.25rem 0}
+.dip-toolbar input,.dip-toolbar select{width:100%;border:1px solid var(--global-border-color);border-radius:6px;background:var(--global-bg-color);color:var(--global-text-color);padding:.62rem .7rem;font:inherit}
+.dip-summary{display:flex;justify-content:space-between;align-items:center;gap:.7rem;margin:.6rem 0 1rem;font-size:.82rem}
+.dip-reset{border:0;background:none;color:#2a5db0;padding:0;font:inherit;font-weight:700;cursor:pointer}
+.dip-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:.9rem}
+.dip-card{display:flex;flex-direction:column;border:1px solid var(--global-border-color);border-radius:8px;padding:1rem;background:var(--global-bg-color)}
+.dip-card[hidden]{display:none}
+.dip-kicker{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700;opacity:.72;margin-bottom:.35rem}
+.dip-card h2{font-size:1.03rem;line-height:1.35;margin:0 0 .55rem;border:0;padding:0;text-transform:none;letter-spacing:normal}
+.dip-tags{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.65rem}
+.dip-tag{border:1px solid var(--global-border-color);border-radius:999px;padding:.12rem .48rem;font-size:.7rem;font-weight:600}
+.dip-card p{font-size:.84rem;margin:.1rem 0 .8rem;flex-grow:1}
+.dip-status{font-size:.77rem;font-weight:700;margin-bottom:.55rem}
+.dip-link{display:inline-block;align-self:flex-start;background:#2a5db0;color:#fff!important;padding:7px 13px;border-radius:4px;font-size:.8rem;font-weight:700;text-decoration:none!important}
+.dip-empty{display:none;border:1px dashed var(--global-border-color);border-radius:8px;padding:1rem;margin-top:1rem}
+.dip-method{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--global-border-color);font-size:.8rem;opacity:.85}
+@media(max-width:760px){.dip-toolbar{grid-template-columns:1fr 1fr}.dip-search{grid-column:1/-1}}
+@media(max-width:480px){.dip-toolbar{grid-template-columns:1fr}.dip-search{grid-column:auto}}
+</style>
+
+<div class="dip-directory">
+<p class="dip-lead">Directorio abierto de <strong>diplomados relacionados con la fonoaudiología</strong> ofrecidos por universidades chilenas. Puedes buscar por nombre y filtrar por institución, área o modalidad.</p>
+<p class="dip-note"><strong>Última verificación:</strong> 16 de septiembre de 2026. La información puede cambiar; confirma fechas, cupos, aranceles y requisitos en el sitio oficial de cada programa.</p>
+
+<div class="dip-toolbar" aria-label="Filtros del directorio">
+  <input class="dip-search" id="dip-search" type="search" placeholder="Buscar por programa, área o institución…" aria-label="Buscar diplomados">
+  <select id="dip-university" aria-label="Filtrar por institución"><option value="">Todas las instituciones</option><option>Universidad de los Andes</option><option>Pontificia Universidad Católica de Chile</option><option>Universidad de Chile</option><option>Universidad Andrés Bello</option><option>Universidad San Sebastián</option></select>
+  <select id="dip-area" aria-label="Filtrar por área"><option value="">Todas las áreas</option><option>Audiología</option><option>Deglución</option><option>Habla y motricidad orofacial</option><option>Lenguaje y comunicación</option><option>Medicina intensiva</option><option>Neurodiversidad</option><option>Voz</option></select>
+  <select id="dip-modality" aria-label="Filtrar por modalidad"><option value="">Todas las modalidades</option><option>Online</option><option>Semipresencial</option><option>Presencial</option></select>
+</div>
+
+<div class="dip-summary"><span id="dip-count" aria-live="polite"></span><button class="dip-reset" id="dip-reset" type="button">Limpiar filtros</button></div>
+
+<div class="dip-grid" id="dip-grid">
+  <article class="dip-card" data-university="Universidad de los Andes" data-area="Medicina intensiva" data-modality="Online"><span class="dip-kicker">Universidad de los Andes</span><h2>Fonoaudiología en Medicina Intensiva</h2><div class="dip-tags"><span class="dip-tag">Medicina intensiva</span><span class="dip-tag">Online</span></div><p>Evaluación, habilitación y rehabilitación fonoaudiológica en cuidados críticos, vía aérea artificial, comunicación, voz y deglución.</p><div class="dip-status">Próxima admisión informada: 2027</div><a class="dip-link" href="https://postgrados.uandes.cl/diplomados/diplomado-de-fonoaudiologia-en-medicina-intensiva/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad de los Andes" data-area="Deglución" data-modality="Online"><span class="dip-kicker">Universidad de los Andes</span><h2>Deglutología Pediátrica y Neonatal</h2><div class="dip-tags"><span class="dip-tag">Deglución</span><span class="dip-tag">Online</span></div><p>Evaluación e intervención de la deglución y alimentación desde la etapa fetal hasta la adolescencia.</p><div class="dip-status">Admisión 2027 abierta</div><a class="dip-link" href="https://postgrados.uandes.cl/diplomados/diplomado-en-deglutologia-pediatrica-y-neonatal/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad de los Andes" data-area="Voz" data-modality="Online"><span class="dip-kicker">Universidad de los Andes</span><h2>Vocología</h2><div class="dip-tags"><span class="dip-tag">Voz</span><span class="dip-tag">Online</span></div><p>Formación avanzada en evaluación, análisis e intervención de la voz desde una perspectiva clínica e interdisciplinaria.</p><div class="dip-status">Próxima admisión informada: 2027</div><a class="dip-link" href="https://postgrados.uandes.cl/diplomados/diplomado-en-vocologia/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad de los Andes" data-area="Habla y motricidad orofacial" data-modality="Online"><span class="dip-kicker">Universidad de los Andes</span><h2>Motricidad Orofacial en el Ciclo Vital</h2><div class="dip-tags"><span class="dip-tag">Motricidad orofacial</span><span class="dip-tag">Online</span></div><p>Evaluación e intervención de las funciones y alteraciones orofaciales en distintas etapas del ciclo vital.</p><div class="dip-status">Próxima admisión informada: 2027</div><a class="dip-link" href="https://postgrados.uandes.cl/diplomados/diplomado-en-motricidad-orofacial-en-el-ciclo-vital/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad de los Andes" data-area="Neurodiversidad" data-modality="Online"><span class="dip-kicker">Universidad de los Andes</span><h2>Acompañamiento del Adolescente y Adulto Neurodivergente</h2><div class="dip-tags"><span class="dip-tag">Neurodiversidad</span><span class="dip-tag">Online</span></div><p>Herramientas para el acompañamiento interdisciplinario de adolescentes y adultos neurodivergentes.</p><div class="dip-status">Programa disponible en catálogo oficial</div><a class="dip-link" href="https://postgrados.uandes.cl/diplomados/diplomado-en-acompanamiento-del-adolescente-y-adulto-neurodivergente/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad de los Andes" data-area="Deglución" data-modality="Online"><span class="dip-kicker">Universidad de los Andes</span><h2>Deglutología del Adulto</h2><div class="dip-tags"><span class="dip-tag">Deglución</span><span class="dip-tag">Online</span></div><p>Evaluación clínica e instrumental, diagnóstico e intervención en trastornos de la deglución de la persona adulta.</p><div class="dip-status">Programa disponible en catálogo oficial</div><a class="dip-link" href="https://postgrados.uandes.cl/diplomados/diplomado-en-deglutologia-del-adulto/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+
+  <article class="dip-card" data-university="Pontificia Universidad Católica de Chile" data-area="Audiología" data-modality="Semipresencial"><span class="dip-kicker">Pontificia Universidad Católica de Chile</span><h2>Abordaje Integral de la Persona con Discapacidad Auditiva</h2><div class="dip-tags"><span class="dip-tag">Audiología</span><span class="dip-tag">Semipresencial</span></div><p>Abordaje integral de las necesidades comunicativas y de rehabilitación de personas con discapacidad auditiva.</p><div class="dip-status">Admisión 2026</div><a class="dip-link" href="https://educacioncontinua.uc.cl/programas/diplomado-en-abordaje-integral-de-la-persona-con-discapacidad-auditiva/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Pontificia Universidad Católica de Chile" data-area="Habla y motricidad orofacial" data-modality="Semipresencial"><span class="dip-kicker">Pontificia Universidad Católica de Chile</span><h2>Terapia Miofuncional Orofacial</h2><div class="dip-tags"><span class="dip-tag">Motricidad orofacial</span><span class="dip-tag">Semipresencial</span></div><p>Técnicas especializadas para el abordaje de trastornos miofuncionales a lo largo del ciclo vital.</p><div class="dip-status">Admisión 2026</div><a class="dip-link" href="https://educacioncontinua.uc.cl/programas/diplomado-en-terapia-miofuncional-orofacial/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Pontificia Universidad Católica de Chile" data-area="Deglución" data-modality="Semipresencial"><span class="dip-kicker">Pontificia Universidad Católica de Chile</span><h2>Abordaje Integral en Trastornos de la Deglución</h2><div class="dip-tags"><span class="dip-tag">Deglución</span><span class="dip-tag">Semipresencial</span></div><p>Programa con menciones en población adulta y pediátrica para fortalecer la evaluación, el diagnóstico y la intervención en disfagia.</p><div class="dip-status">Admisión 2026</div><a class="dip-link" href="https://educacioncontinua.uc.cl/programas/diplomado-abordaje-integral-en-trastornos-de-la-deglucion-mencion-en-poblacion-adulta-mencion-en-poblacion-pediatrica/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Pontificia Universidad Católica de Chile" data-area="Medicina intensiva" data-modality="Semipresencial"><span class="dip-kicker">Pontificia Universidad Católica de Chile</span><h2>Intervención Fonoaudiológica en Pacientes Críticos Adultos</h2><div class="dip-tags"><span class="dip-tag">Medicina intensiva</span><span class="dip-tag">Semipresencial</span></div><p>Enfoque clínico-práctico para la evaluación e intervención fonoaudiológica en unidades de paciente crítico adulto.</p><div class="dip-status">Admisión 2026</div><a class="dip-link" href="https://educacioncontinua.uc.cl/programas/diplomado-en-intervencion-fonoaudiologica-en-pacientes-criticos-adultos-con-enfoque-clinico-practico/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+
+  <article class="dip-card" data-university="Universidad de Chile" data-area="Deglución" data-modality="Semipresencial"><span class="dip-kicker">Universidad de Chile</span><h2>Trastornos de la Deglución y de la Alimentación Oral</h2><div class="dip-tags"><span class="dip-tag">Deglución</span><span class="dip-tag">Semipresencial</span></div><p>Actualización basada en evidencia sobre evaluación e intervención de la deglución y alimentación oral a lo largo del ciclo vital.</p><div class="dip-status">Versión 2026</div><a class="dip-link" href="https://medichi.uchile.cl/diploma-trastornos-de-la-deglucion-y-de-la-alimentacion-oral-a-lo-largo-del-ciclo-vital-2/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad de Chile" data-area="Audiología" data-modality="Semipresencial"><span class="dip-kicker">Universidad de Chile</span><h2>Rehabilitación Auditiva para la Comunicación</h2><div class="dip-tags"><span class="dip-tag">Audiología</span><span class="dip-tag">Semipresencial</span></div><p>Rehabilitación auditiva y comunicación en personas con pérdida auditiva, con enfoque aplicado a distintas etapas del ciclo vital.</p><div class="dip-status">3.ª versión 2026–2027</div><a class="dip-link" href="https://medichi.uchile.cl/diploma-rehabilitacion-auditiva/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+
+  <article class="dip-card" data-university="Universidad Andrés Bello" data-area="Habla y motricidad orofacial" data-modality="Semipresencial"><span class="dip-kicker">Universidad Andrés Bello</span><h2>Rehabilitación Miofuncional Orofacial Avanzada</h2><div class="dip-tags"><span class="dip-tag">Motricidad orofacial</span><span class="dip-tag">Semipresencial</span></div><p>Formación teórico-práctica avanzada en evaluación y rehabilitación miofuncional orofacial.</p><div class="dip-status">Programa informado en 2026</div><a class="dip-link" href="https://postgrado.unab.cl/noticias/fortalece-tus-competencias-en-rehabilitacion-miofuncional-orofacial/" target="_blank" rel="noopener">Ver información oficial →</a></article>
+  <article class="dip-card" data-university="Universidad Andrés Bello" data-area="Lenguaje y comunicación" data-modality="Semipresencial"><span class="dip-kicker">Universidad Andrés Bello</span><h2>Trastorno Específico del Lenguaje / Trastorno del Lenguaje</h2><div class="dip-tags"><span class="dip-tag">Lenguaje</span><span class="dip-tag">Semipresencial</span></div><p>Consideraciones para la detección e intervención del trastorno del lenguaje durante el ciclo escolar completo.</p><div class="dip-status">Programa informado en 2026</div><a class="dip-link" href="https://postgrado.unab.cl/noticias/trastorno-del-lenguaje-en-el-aula-claves-para-abordarlo-durante-todo-el-ciclo-escolar/" target="_blank" rel="noopener">Ver información oficial →</a></article>
+  <article class="dip-card" data-university="Universidad Andrés Bello" data-area="Audiología" data-modality="Online"><span class="dip-kicker">Universidad Andrés Bello</span><h2>Diplomado Internacional en Rehabilitación Auditiva</h2><div class="dip-tags"><span class="dip-tag">Audiología</span><span class="dip-tag">Online</span></div><p>Rehabilitación auditiva, adaptación de audífonos e implantes cocleares para población infantil y adulta.</p><div class="dip-status">Programa disponible en catálogo oficial</div><a class="dip-link" href="https://postgrado.unab.cl/programas/diplomado-internacional-en-rehabilitacion-auditiva-asu/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad Andrés Bello" data-area="Audiología" data-modality="Presencial"><span class="dip-kicker">Universidad Andrés Bello</span><h2>Audiología: Desde las Bases Conceptuales hacia la Práctica Clínica</h2><div class="dip-tags"><span class="dip-tag">Audiología</span><span class="dip-tag">Presencial</span></div><p>Fundamentos y aplicación clínica de procedimientos audiológicos en modalidad presencial en Concepción.</p><div class="dip-status">Inicio informado: noviembre de 2026</div><a class="dip-link" href="https://postgrado.unab.cl/programas/diplomado-en-audiologia-desde-las-bases-conceptuales-hacia-la-practica-clinica/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+
+  <article class="dip-card" data-university="Universidad San Sebastián" data-area="Medicina intensiva" data-modality="Semipresencial"><span class="dip-kicker">Universidad San Sebastián</span><h2>Intervención Fonoaudiológica en Usuario Crítico e Intermedio Adulto</h2><div class="dip-tags"><span class="dip-tag">Medicina intensiva</span><span class="dip-tag">Semipresencial</span></div><p>Abordaje multidisciplinario con clases sincrónicas y actividades presenciales de simulación clínica en Concepción.</p><div class="dip-status">Próxima admisión: 2027</div><a class="dip-link" href="https://postgrados.uss.cl/programa/diplomado-en-intervencion-fonoaudiologica-en-unidad-de-usuario-critico-e-intermedio-adulto-con-enfoque-multidisciplinario/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad San Sebastián" data-area="Voz" data-modality="Semipresencial"><span class="dip-kicker">Universidad San Sebastián</span><h2>Evaluación y Manejo Integral de la Voz</h2><div class="dip-tags"><span class="dip-tag">Voz</span><span class="dip-tag">Semipresencial</span></div><p>Competencias teóricas y prácticas para la evaluación y el manejo integral de la voz, con componente práctico presencial.</p><div class="dip-status">Inicio informado: noviembre de 2026</div><a class="dip-link" href="https://postgrados.uss.cl/programa/diplomado-evaluacion-y-manejo-integral-de-la-voz/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+  <article class="dip-card" data-university="Universidad San Sebastián" data-area="Audiología" data-modality="Presencial"><span class="dip-kicker">Universidad San Sebastián</span><h2>Audiología Diagnóstica</h2><div class="dip-tags"><span class="dip-tag">Audiología</span><span class="dip-tag">Presencial</span></div><p>Técnicas clásicas y avanzadas para el estudio clínico del sistema auditivo y vestibular.</p><div class="dip-status">Programa disponible en catálogo oficial</div><a class="dip-link" href="https://postgrados.uss.cl/programa/diplomado-en-audiologia-diagnostica/" target="_blank" rel="noopener">Ver programa oficial →</a></article>
+</div>
+
+<p class="dip-empty" id="dip-empty">No encontramos programas que coincidan con esos filtros. Prueba otra combinación.</p>
+
+<div class="dip-method"><strong>Criterio de inclusión.</strong> Se incorporan programas ofrecidos por instituciones de educación superior chilenas cuya página oficial se encuentra activa y cuyo contenido se relaciona directamente con áreas de desempeño fonoaudiológico. Este directorio es informativo, no constituye una recomendación ni reemplaza la información oficial. Para informar un programa o solicitar una corrección, utiliza la sección de <a href="/contact/">contacto</a>.</div>
+</div>
+
+<script>
+(function(){
+  var search=document.getElementById('dip-search');
+  var university=document.getElementById('dip-university');
+  var area=document.getElementById('dip-area');
+  var modality=document.getElementById('dip-modality');
+  var cards=Array.prototype.slice.call(document.querySelectorAll('.dip-card'));
+  var count=document.getElementById('dip-count');
+  var empty=document.getElementById('dip-empty');
+  function normalize(value){return (value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
+  function filter(){
+    var query=normalize(search.value), shown=0;
+    cards.forEach(function(card){
+      var matchesText=!query||normalize(card.textContent).indexOf(query)>-1;
+      var matchesUniversity=!university.value||card.dataset.university===university.value;
+      var matchesArea=!area.value||card.dataset.area===area.value;
+      var matchesModality=!modality.value||card.dataset.modality===modality.value;
+      var visible=matchesText&&matchesUniversity&&matchesArea&&matchesModality;
+      card.hidden=!visible;if(visible){shown++;}
+    });
+    count.textContent=shown+' programa'+(shown===1?'':'s')+' encontrado'+(shown===1?'':'s');
+    empty.style.display=shown?'none':'block';
+  }
+  [search,university,area,modality].forEach(function(control){control.addEventListener(control===search?'input':'change',filter);});
+  document.getElementById('dip-reset').addEventListener('click',function(){search.value='';university.value='';area.value='';modality.value='';filter();search.focus();});
+  filter();
+})();
+</script>
