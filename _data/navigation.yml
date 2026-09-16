@@ -16,7 +16,7 @@ main:
     children:
       - title: "Documentos profesionales"
         url: /recursos-profesionales/
-      - title: "Diplomados en Fonoaudiología"
+      - title: "Postgrados en Fonoaudiología"
         url: /diplomados-fonoaudiologia/
       - title: "Pacientes y cuidadores"
         url: /recursos-pacientes/
