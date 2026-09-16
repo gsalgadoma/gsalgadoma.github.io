@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://gsalgadoma.github.io/sitemap.xml
