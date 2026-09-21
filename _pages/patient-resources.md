@@ -12,6 +12,12 @@ Entregar orientaciones generales, comprensibles y basadas en evidencia para apoy
 
 ## Temas principales
 
+### Enfermedad de Alzheimer: comunicación y deglución
+
+Guía para familias y cuidadores sobre cambios en el lenguaje y la comunicación, estrategias para facilitar las conversaciones, signos de alerta de disfagia y el rol de la fonoaudiología a lo largo de la enfermedad. Incluye recomendaciones prácticas y evidencia comentada.
+
+[Acceder al recurso sobre fonoaudiología y Alzheimer →](/alzheimer-fonoaudiologia/)
+
 ### Afasia y comunicación
 
 Información educativa para comprender qué es la afasia, sus causas y perfiles, cómo se evalúa y cuáles son los principales enfoques de rehabilitación, considerando también la participación y el entorno de la persona.
