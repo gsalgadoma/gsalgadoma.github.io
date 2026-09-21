@@ -24,14 +24,19 @@ author_profile: true
 
 <div class="prof-grid">
   <div class="prof-card">
+    <span class="prof-kicker">Demencia · Comunicación · Deglución</span>
+    <h3>Fonoaudiología y enfermedad de Alzheimer</h3>
+    <p>Recurso basado en evidencia sobre evaluación e intervención en lenguaje, comunicación funcional y disfagia. Incluye síntesis de resultados, recomendaciones clínicas y 11 referencias comentadas.</p>
+    <a class="prof-button" href="/alzheimer-fonoaudiologia/">Revisar recurso →</a>
+  </div>
+
+  <div class="prof-card">
     <span class="prof-kicker">Afasia · Participación comunicativa</span>
     <h3>Carnet de Comunicación y Afasia — Chile</h3>
     <p>Herramienta personalizable para apoyar la comunicación en contextos cotidianos, clínicos y de emergencia. Permite seleccionar estrategias, revisar el resultado e imprimir una credencial.</p>
     <a class="prof-button" href="/carnet-afasia/">Abrir herramienta →</a>
   </div>
-</div>
 
-<div class="prof-grid">
   <div class="prof-card">
     <span class="prof-kicker">Vía aérea · Continuidad de cuidados</span>
     <h3>Carnet de Traqueostomía — Chile</h3>
