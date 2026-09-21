@@ -24,6 +24,12 @@ Crea gratuitamente un carnet personalizado que explica que tienes afasia y muest
 
 [Crear mi carnet de comunicación →](/carnet-afasia/)
 
+### Carnet de Traqueostomía
+
+Crea un carnet personalizado con la marca, número y modelo de la cánula, uso de válvula de fonación, tipo y fecha de traqueostomía, centro de control y profesionales tratantes. Puedes imprimirlo en una hoja tamaño carta y llevarlo contigo.
+
+[Crear mi carnet de traqueostomía →](/carnet-traqueostomia/)
+
 ### Deglución y disfagia
 
 Información general sobre dificultades para tragar, signos de alerta, seguridad durante la alimentación, consistencias, estrategias compensatorias y criterios para consultar oportunamente.
