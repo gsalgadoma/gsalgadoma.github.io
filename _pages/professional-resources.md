@@ -20,6 +20,17 @@ author_profile: true
 
 <p class="prof-lead">Esta sección reúne <strong>documentos, presentaciones, orientaciones y materiales de apoyo</strong> dirigidos a profesionales de la salud, docentes y equipos clínicos interesados en fonoaudiología, deglución, vía aérea, cuidados intensivos, epidemiología y salud pública.</p>
 
+<h2>Herramientas clínicas y educativas</h2>
+
+<div class="prof-grid">
+  <div class="prof-card">
+    <span class="prof-kicker">Afasia · Participación comunicativa</span>
+    <h3>Carnet de Comunicación y Afasia — Chile</h3>
+    <p>Herramienta personalizable para apoyar la comunicación en contextos cotidianos, clínicos y de emergencia. Permite seleccionar estrategias, revisar el resultado e imprimir una credencial.</p>
+    <a class="prof-button" href="/carnet-afasia/">Abrir herramienta →</a>
+  </div>
+</div>
+
 <h2>Charlas y congresos</h2>
 
 <p>Material académico asociado a presentaciones en cursos y congresos. Cada recurso incluye la presentación, bibliografía seleccionada y contenidos complementarios para revisión posterior.</p>
