@@ -22,6 +22,12 @@ author_profile: true
 
 <div class="resources-grid">
   <div class="resources-card">
+    <h3>Fonoaudiología y enfermedad de Alzheimer</h3>
+    <p>Guía basada en evidencia para familias, cuidadores y profesionales sobre comunicación, lenguaje, participación y deglución a lo largo de la enfermedad.</p>
+    <a class="resources-button" href="/alzheimer-fonoaudiologia/">Abrir recurso →</a>
+  </div>
+
+  <div class="resources-card">
     <h3>Carnet de Traqueostomía</h3>
     <p>Crea e imprime una credencial personalizada con datos de la cánula, procedimiento, centro de control y equipo tratante.</p>
     <a class="resources-button" href="/carnet-traqueostomia/">Crear mi carnet →</a>
@@ -59,6 +65,7 @@ author_profile: true
 <h2>Recursos destacados</h2>
 
 <ul>
+  <li><a href="/alzheimer-fonoaudiologia/"><strong>Fonoaudiología y enfermedad de Alzheimer</strong></a> — guía sobre comunicación y disfagia con orientaciones para familias, síntesis clínica para profesionales y referencias comentadas.</li>
   <li><a href="/diplomados-fonoaudiologia/"><strong>Postgrados en Fonoaudiología en Chile</strong></a> — directorio filtrable de diplomados y magísteres con acceso a sus páginas oficiales.</li>
   <li><a href="/afasia/"><strong>Afasia: comprender, evaluar y rehabilitar</strong></a> — guía educativa sobre causas, perfiles clínicos, evaluación, rehabilitación y participación en la vida cotidiana.</li>
   <li><a href="/voz-deglucion/"><strong>Deglución y Enfermedad Respiratoria Crónica</strong></a> — material del Curso de Voz y Deglución de Clínica Universidad de los Andes.</li>
