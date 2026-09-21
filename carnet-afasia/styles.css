@@ -9,9 +9,11 @@
   #print-area,#print-area *{visibility:visible!important}
   #print-area{position:fixed!important;left:12.35mm!important;top:12mm!important;width:191.2mm!important;height:54mm!important;padding:0!important;margin:0!important;display:grid!important;grid-template-columns:85.6mm 85.6mm!important;grid-template-rows:54mm!important;column-gap:20mm!important;align-items:start!important}
   .id-card{width:85.6mm!important;height:54mm!important;min-height:54mm!important;max-height:54mm!important;margin:0!important;break-inside:avoid!important;page-break-inside:avoid!important;box-shadow:none!important;border:1px solid #bbb!important;border-radius:3mm!important;print-color-adjust:exact!important;-webkit-print-color-adjust:exact!important}
-  .front{padding:4.5mm!important;border-top-width:2mm!important}.back{padding:4.5mm!important}
-  .card-title strong{font-size:13pt!important}.card-statement{font-size:8pt!important;margin:3mm 0!important}.card-person{padding:2mm 3mm!important}.card-person strong{font-size:12pt!important}.card-contact{margin-top:2mm!important;font-size:7pt!important}.card-contact>strong{font-size:7pt!important}
-  .back ul{font-size:6.5pt!important;gap:1.5mm 3mm!important;margin:3mm 0 1.5mm!important}.communication-summary{font-size:6pt!important}.emergency{padding:2mm 4.5mm!important}
+  .front{position:relative!important;padding:4mm 4.5mm 12mm!important;border-top-width:2mm!important}.back{position:relative!important;padding:4mm 4.5mm 15mm!important}
+  .card-title strong{font-size:12pt!important}.card-title small{font-size:5.5pt!important}.card-statement{font-size:7.5pt!important;line-height:1.25!important;margin:2.2mm 0!important}.card-person{padding:1.7mm 3mm!important}.card-person small{font-size:5.5pt!important}.card-person strong{font-size:11.5pt!important;line-height:1.15!important}
+  .card-contact{position:absolute!important;left:4.5mm!important;right:4.5mm!important;bottom:2.5mm!important;margin:0!important;align-items:end!important;font-size:6.3pt!important;line-height:1.2!important}.card-contact small{font-size:5.2pt!important}.card-contact>strong{font-size:6.3pt!important;white-space:nowrap!important}
+  .back-heading strong{font-size:11pt!important}.back-heading small{font-size:5.2pt!important}.back-heading span{width:7mm!important;height:7mm!important}
+  .back ul{font-size:5.8pt!important;line-height:1.25!important;gap:1.5mm 2.5mm!important;margin:2.5mm 0 1.5mm!important}.communication-summary{font-size:5.4pt!important;line-height:1.25!important;margin:1mm 0 0!important}.emergency{height:11mm!important;padding:1.5mm 4.5mm!important}.emergency small{font-size:4.8pt!important}.emergency b{font-size:8pt!important}
 }
 
 /* Integración y fluidez */
