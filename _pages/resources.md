@@ -22,6 +22,11 @@ author_profile: true
 
 <div class="resources-grid">
   <div class="resources-card">
+    <h3>Carnet de Traqueostomía</h3>
+    <p>Crea e imprime una credencial personalizada con datos de la cánula, procedimiento, centro de control y equipo tratante.</p>
+    <a class="resources-button" href="/carnet-traqueostomia/">Crear mi carnet →</a>
+  </div>
+  <div class="resources-card">
     <h3>Carnet de Comunicación y Afasia</h3>
     <p>Crea e imprime un carnet personalizado con apoyos para facilitar la comunicación en la vida cotidiana, atenciones de salud y situaciones de emergencia.</p>
     <a class="resources-button" href="/carnet-afasia/">Crear mi carnet →</a>
