@@ -18,6 +18,12 @@ Guía para familias y cuidadores sobre cambios en el lenguaje y la comunicación
 
 [Acceder al recurso sobre fonoaudiología y Alzheimer →](/alzheimer-fonoaudiologia/)
 
+### Kit práctico para familias y cuidadores · Alzheimer
+
+Herramienta breve para completar e imprimir en una sola hoja tamaño carta. Reúne estrategias de comunicación, señales de alerta durante la alimentación, recomendaciones para las comidas y un perfil personal que puede compartirse entre familiares, cuidadores y el equipo de salud. Los datos se completan localmente en el dispositivo y no se envían a ningún servidor.
+
+[Completar e imprimir el Kit para familias →](/kit-alzheimer/)
+
 ### Afasia y comunicación
 
 Información educativa para comprender qué es la afasia, sus causas y perfiles, cómo se evalúa y cuáles son los principales enfoques de rehabilitación, considerando también la participación y el entorno de la persona.
