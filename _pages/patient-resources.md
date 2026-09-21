@@ -18,6 +18,12 @@ Información educativa para comprender qué es la afasia, sus causas y perfiles,
 
 [Acceder al recurso informativo sobre afasia →](/afasia/)
 
+### Carnet de Comunicación y Afasia
+
+Crea gratuitamente un carnet personalizado que explica que tienes afasia y muestra a otras personas cómo pueden ayudarte a comunicarte. Puedes imprimirlo, guardarlo como PDF y llevarlo contigo. Los datos se procesan únicamente en tu dispositivo.
+
+[Crear mi carnet de comunicación →](/carnet-afasia/)
+
 ### Deglución y disfagia
 
 Información general sobre dificultades para tragar, signos de alerta, seguridad durante la alimentación, consistencias, estrategias compensatorias y criterios para consultar oportunamente.
