@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Crea gratuitamente un carnet personalizable con información esencial para personas con traqueostomía en Chile.">
+  <title>Carnet de Traqueostomía — Chile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#crear">Saltar al formulario</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio del carnet">
+      <span class="brand-mark" aria-hidden="true">T</span>
+      <span>Carnet de Traqueostomía <small>Chile</small></span>
+    </a>
+    <nav class="header-nav" aria-label="Navegación del recurso">
+      <a class="header-link" href="/recursos/">← Recursos</a>
+      <a class="header-link" href="/recursos-pacientes/">Recursos para pacientes</a>
+      <a class="header-link" href="#como-funciona">¿Cómo funciona?</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">INFORMACIÓN ESENCIAL DE SALUD</p>
+        <h1>Vivo con una <span>traqueostomía.</span></h1>
+        <p class="lead">Crea un carnet con los datos de tu cánula, profesionales tratantes y centro de control.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#crear">Crear mi carnet</a>
+          <a class="button secondary" href="#vista-previa">Ver ejemplo</a>
+        </div>
+        <p class="privacy-note"><span aria-hidden="true">●</span> Tus datos permanecen en este dispositivo.</p>
+        <div class="audience-tags" aria-label="Personas a quienes está dirigido">
+          <span>Personas con traqueostomía</span><span>Familias y cuidadores</span><span>Profesionales</span>
+        </div>
+      </div>
+      <div class="hero-card-wrap" aria-label="Ejemplo de carnet">
+        <div class="mini-card">
+          <div class="mini-top"><span class="mini-icon">T</span><strong>TENGO TRAQUEOSTOMÍA</strong></div>
+          <p>Información sobre mi cánula.</p>
+          <div class="mini-name"><small>MI NOMBRE ES</small><b>Ana Pérez</b></div>
+          <p class="mini-help">Marca · número · modelo · válvula de fonación</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="how">
+      <p class="eyebrow">UNA HERRAMIENTA SIMPLE</p>
+      <h2>¿Para qué sirve?</h2>
+      <div class="benefits">
+        <article><span>1</span><h3>Identifica</h3><p>Reúne la información principal de la cánula de traqueostomía.</p></article>
+        <article><span>2</span><h3>Orienta</h3><p>Facilita el acceso a los datos del equipo y centro tratante.</p></article>
+        <article><span>3</span><h3>Acompaña</h3><p>Puede llevarse en controles, traslados y situaciones imprevistas.</p></article>
+      </div>
+      <aside class="important"><strong>Importante</strong><p>Este carnet es informativo. No reemplaza la ficha clínica, las indicaciones del equipo tratante ni los protocolos de emergencia.</p></aside>
+    </section>
+
+    <section id="crear" class="builder">
+      <div class="section-heading">
+        <div><p class="eyebrow">PERSONALIZA TU CARNET</p><h2>Registra la información esencial</h2></div>
+        <p>Todos los campos son opcionales. Incluye solo la información que quieras compartir.</p>
+      </div>
+
+      <div class="builder-grid">
+        <form id="card-form" novalidate>
+          <div class="form-intro"><strong>4 pasos breves</strong><span>Completa únicamente lo que desees compartir.</span></div>
+          <fieldset>
+            <legend><span>1</span> Identificación y contacto</legend>
+            <label>Nombre o nombre preferido<input id="name" maxlength="35" placeholder="Ej.: Ana Pérez" autocomplete="name"></label>
+            <div class="two-cols">
+              <label>Persona de contacto<input id="contact" maxlength="35" placeholder="Ej.: Juan Pérez"></label>
+              <label>Teléfono de contacto<input id="phone" maxlength="18" placeholder="Ej.: +56 9 1234 5678" inputmode="tel" autocomplete="tel"></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span>2</span> Datos de la cánula</legend>
+            <div class="two-cols">
+              <label>Marca<input id="brand" maxlength="25" placeholder="Ej.: Shiley"></label>
+              <label>Número o tamaño<input id="tube-number" maxlength="12" placeholder="Ej.: 7.5"></label>
+              <label>Modelo<input id="model" maxlength="25" placeholder="Ej.: Flexible"></label>
+              <label>Válvula de fonación<select id="valve"><option value="No informada">Seleccionar</option><option value="Sí utiliza">Sí utiliza</option><option value="No utiliza">No utiliza</option></select></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span>3</span> Procedimiento y seguimiento</legend>
+            <div class="two-cols">
+              <label>Tipo de traqueostomía<select id="tqt-type"><option value="No informada">Seleccionar</option><option value="Quirúrgica">Quirúrgica</option><option value="Percutánea">Percutánea</option></select></label>
+              <label>Fecha de la traqueostomía<input id="tqt-date" type="date"></label>
+            </div>
+            <label>Centro donde se controla<input id="center" maxlength="45" placeholder="Hospital, clínica o centro de salud"></label>
+          </fieldset>
+
+          <fieldset>
+            <legend><span>4</span> Equipo tratante</legend>
+            <label>Nombre del médico o médica<input id="doctor" maxlength="40" placeholder="Nombre del profesional"></label>
+            <label>Nombre del fonoaudiólogo o fonoaudióloga<input id="slp" maxlength="40" placeholder="Nombre del profesional"></label>
+          </fieldset>
+        </form>
+
+        <aside id="vista-previa" class="preview-panel">
+          <div class="preview-header"><div><p class="eyebrow">VISTA PREVIA</p><h2>Tu carnet</h2></div><span>Formato credencial</span></div>
+          <div id="print-area">
+            <article class="id-card front">
+              <div class="card-title"><span class="card-a">T</span><div><small>CARNET DE SALUD</small><strong>TENGO TRAQUEOSTOMÍA</strong></div><i>CHILE</i></div>
+              <div class="card-person"><small>MI NOMBRE ES</small><strong id="preview-name">Tu nombre</strong></div>
+              <div class="clinical-grid">
+                <div><small>MARCA</small><b id="preview-brand">—</b></div><div><small>NÚMERO</small><b id="preview-number">—</b></div>
+                <div><small>MODELO</small><b id="preview-model">—</b></div><div><small>VÁLVULA DE FONACIÓN</small><b id="preview-valve">—</b></div>
+                <div><small>TIPO DE TQT</small><b id="preview-type">—</b></div><div><small>FECHA DE TQT</small><b id="preview-date">—</b></div>
+              </div>
+            </article>
+
+            <article class="id-card back">
+              <div class="back-heading"><div><small>INFORMACIÓN DE SEGUIMIENTO</small><strong>Mi equipo tratante</strong></div><span>✚</span></div>
+              <div class="care-info">
+                <div><small>CENTRO DE CONTROL</small><b id="preview-center">—</b></div>
+                <div><small>MÉDICO/A</small><b id="preview-doctor">—</b></div>
+                <div><small>FONOAUDIÓLOGO/A</small><b id="preview-slp">—</b></div>
+              </div>
+              <div class="emergency"><span>☎</span><div><small>CONTACTO DE EMERGENCIA</small><b><span id="preview-contact">Nombre del contacto</span> · <span id="preview-phone">+56 9 XXXX XXXX</span></b></div><div class="samu"><small>URGENCIA</small><b>131 · SAMU</b></div></div>
+            </article>
+          </div>
+          <p class="print-help">Imprime al 100 %, recorta por el borde y dobla o plastifica.</p>
+          <div class="preview-actions">
+            <button class="button primary" id="print-button" type="button">Imprimir / guardar PDF</button>
+            <button class="button secondary" id="example-button" type="button">Cargar ejemplo</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="privacy-section">
+      <div class="privacy-icon">⌁</div>
+      <div><p class="eyebrow">TU PRIVACIDAD IMPORTA</p><h2>La información no sale de tu dispositivo</h2><p>Este sitio no guarda ni envía los datos que escribes. El carnet se crea localmente en tu navegador.</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Carnet de Traqueostomía — Chile</strong><br>Herramienta informativa. No reemplaza la ficha clínica, una identificación oficial ni las indicaciones del equipo tratante.</p>
+    <p><a href="/recursos/">Recursos</a> · <a href="/recursos-pacientes/">Pacientes y cuidadores</a> · <a href="/recursos-profesionales/">Profesionales</a></p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
