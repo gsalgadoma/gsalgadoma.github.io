@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Crea gratuitamente un carnet personalizable para facilitar la comunicación de personas con afasia en Chile.">
+  <title>Carnet de Comunicación y Afasia — Chile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#crear">Saltar al formulario</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio del carnet">
+      <span class="brand-mark" aria-hidden="true">A</span>
+      <span>Carnet de Afasia <small>Chile</small></span>
+    </a>
+    <nav class="header-nav" aria-label="Navegación del recurso">
+      <a class="header-link" href="/recursos/">← Recursos</a>
+      <a class="header-link" href="/afasia/">Aprender sobre afasia</a>
+      <a class="header-link" href="#como-funciona">¿Cómo funciona?</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">APOYO PARA LA COMUNICACIÓN</p>
+        <h1>Mi comunicación necesita <span>tiempo y apoyo.</span></h1>
+        <p class="lead">Crea un carnet gratuito y personalizado para explicar cómo pueden ayudarte a comunicarte.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#crear">Crear mi carnet</a>
+          <a class="button secondary" href="#vista-previa">Ver ejemplo</a>
+        </div>
+        <p class="privacy-note"><span aria-hidden="true">●</span> Tus datos permanecen en este dispositivo.</p>
+        <div class="audience-tags" aria-label="Personas a quienes está dirigido">
+          <span>Personas con afasia</span><span>Familias y cuidadores</span><span>Profesionales</span>
+        </div>
+      </div>
+      <div class="hero-card-wrap" aria-label="Ejemplo de carnet">
+        <div class="mini-card">
+          <div class="mini-top"><span class="mini-icon">A</span><strong>TENGO AFASIA</strong></div>
+          <p>Necesito apoyo para comunicarme.</p>
+          <div class="mini-name"><small>MI NOMBRE ES</small><b>Ana Pérez</b></div>
+          <p class="mini-help">Por favor, dame tiempo para responder.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="how">
+      <p class="eyebrow">UNA HERRAMIENTA SIMPLE</p>
+      <h2>¿Para qué sirve?</h2>
+      <div class="benefits">
+        <article><span>1</span><h3>Explica</h3><p>Informa de manera clara que tienes afasia.</p></article>
+        <article><span>2</span><h3>Orienta</h3><p>Muestra las estrategias que facilitan tu comunicación.</p></article>
+        <article><span>3</span><h3>Acompaña</h3><p>Úsalo en salud, trámites, transporte y actividades cotidianas.</p></article>
+      </div>
+      <aside class="important"><strong>Importante</strong><p>Tener dificultades para comunicarse no significa tener dificultades para pensar.</p></aside>
+    </section>
+
+    <section id="crear" class="builder">
+      <div class="section-heading">
+        <div><p class="eyebrow">PERSONALIZA TU CARNET</p><h2>Cuéntanos cómo ayudarte</h2></div>
+        <p>Todos los campos son opcionales. Incluye solo la información que quieras compartir.</p>
+      </div>
+
+      <div class="builder-grid">
+        <form id="card-form" novalidate>
+          <div class="form-intro"><strong>3 pasos breves</strong><span>Completa únicamente lo que desees compartir.</span></div>
+          <fieldset>
+            <legend><span>1</span> Datos para identificarme</legend>
+            <label>Nombre o nombre preferido<input id="name" maxlength="35" placeholder="Ej.: Ana Pérez" autocomplete="name"></label>
+            <div class="two-cols">
+              <label>Persona de contacto<input id="contact" maxlength="35" placeholder="Ej.: Juan Pérez"></label>
+              <label>Teléfono de contacto<input id="phone" maxlength="18" placeholder="Ej.: +56 9 1234 5678" inputmode="tel" autocomplete="tel"></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span>2</span> Sobre mi comunicación</legend>
+            <div class="choices" id="communication-options">
+              <label><input type="checkbox" value="Tengo dificultades para hablar." checked><span>Tengo dificultades para hablar.</span></label>
+              <label><input type="checkbox" value="Comprendo mejor de lo que puedo expresar."><span>Comprendo mejor de lo que puedo expresar.</span></label>
+              <label><input type="checkbox" value="Tengo dificultades para leer o escribir."><span>Tengo dificultades para leer o escribir.</span></label>
+              <label><input type="checkbox" value="Utilizo gestos o un dispositivo para comunicarme."><span>Utilizo gestos o un dispositivo para comunicarme.</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span>3</span> Puedes ayudarme así</legend>
+            <div class="choices" id="support-options">
+              <label><input type="checkbox" value="Dame tiempo para responder." checked><span>Dame tiempo para responder.</span></label>
+              <label><input type="checkbox" value="Háblame lentamente y con frases breves." checked><span>Háblame lentamente y con frases breves.</span></label>
+              <label><input type="checkbox" value="Hazme preguntas con respuesta sí o no."><span>Hazme preguntas con respuesta sí o no.</span></label>
+              <label><input type="checkbox" value="Escribe o muéstrame opciones."><span>Escribe o muéstrame opciones.</span></label>
+              <label><input type="checkbox" value="Permíteme señalar o usar gestos."><span>Permíteme señalar o usar gestos.</span></label>
+              <label><input type="checkbox" value="Confirma lo que comprendiste."><span>Confirma lo que comprendiste.</span></label>
+            </div>
+            <label>Otra forma de ayudarme<textarea id="other" maxlength="90" rows="2" placeholder="Escribe una indicación breve"></textarea></label>
+          </fieldset>
+        </form>
+
+        <aside id="vista-previa" class="preview-panel">
+          <div class="preview-header"><div><p class="eyebrow">VISTA PREVIA</p><h2>Tu carnet</h2></div><span>Formato credencial</span></div>
+          <div id="print-area">
+            <article class="id-card front">
+              <div class="card-title"><span class="card-a">A</span><div><small>CARNET DE COMUNICACIÓN</small><strong>TENGO AFASIA</strong></div><i>CHILE</i></div>
+              <p class="card-statement">Necesito apoyo para comunicarme.<br><b>Por favor, dame tiempo para responder.</b></p>
+              <div class="card-person"><small>MI NOMBRE ES</small><strong id="preview-name">Tu nombre</strong></div>
+              <div class="card-contact"><div><small>CONTACTO DE EMERGENCIA</small><b id="preview-contact">Nombre del contacto</b></div><strong id="preview-phone">+56 9 XXXX XXXX</strong></div>
+            </article>
+
+            <article class="id-card back">
+              <div class="back-heading"><div><small>PARA COMUNICARTE CONMIGO</small><strong>Puedes ayudarme así:</strong></div><span>✓</span></div>
+              <ul id="preview-supports"></ul>
+              <p id="preview-communication" class="communication-summary"></p>
+              <div class="emergency"><span>✚</span><div><small>EMERGENCIAS MÉDICAS EN CHILE</small><b>131 · SAMU</b></div></div>
+            </article>
+          </div>
+          <p class="print-help">Imprime al 100 %, recorta por el borde y dobla o plastifica.</p>
+          <div class="preview-actions">
+            <button class="button primary" id="print-button" type="button">Imprimir / guardar PDF</button>
+            <button class="button secondary" id="example-button" type="button">Cargar ejemplo</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="privacy-section">
+      <div class="privacy-icon">⌁</div>
+      <div><p class="eyebrow">TU PRIVACIDAD IMPORTA</p><h2>La información no sale de tu dispositivo</h2><p>Este sitio no guarda ni envía los datos que escribes. El carnet se crea localmente en tu navegador.</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Carnet de Comunicación y Afasia — Chile</strong><br>Herramienta educativa y de apoyo comunicativo. No reemplaza una identificación oficial ni información clínica.</p>
+    <p><a href="/recursos/">Recursos</a> · <a href="/recursos-pacientes/">Pacientes y cuidadores</a> · <a href="/recursos-profesionales/">Profesionales</a></p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
