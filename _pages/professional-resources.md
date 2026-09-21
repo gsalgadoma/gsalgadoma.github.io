@@ -31,6 +31,15 @@ author_profile: true
   </div>
 </div>
 
+<div class="prof-grid">
+  <div class="prof-card">
+    <span class="prof-kicker">Vía aérea · Continuidad de cuidados</span>
+    <h3>Carnet de Traqueostomía — Chile</h3>
+    <p>Herramienta personalizable que reúne datos de la cánula, procedimiento, seguimiento y equipo tratante en una credencial imprimible.</p>
+    <a class="prof-button" href="/carnet-traqueostomia/">Abrir herramienta →</a>
+  </div>
+</div>
+
 <h2>Charlas y congresos</h2>
 
 <p>Material académico asociado a presentaciones en cursos y congresos. Cada recurso incluye la presentación, bibliografía seleccionada y contenidos complementarios para revisión posterior.</p>
