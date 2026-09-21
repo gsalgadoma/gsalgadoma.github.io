@@ -28,6 +28,12 @@ author_profile: true
   </div>
 
   <div class="resources-card">
+    <h3>Kit para familias · Alzheimer</h3>
+    <p>Herramienta práctica para completar e imprimir con estrategias de comunicación, señales de alerta de disfagia y un perfil personal para compartir con cuidadores y equipos de salud.</p>
+    <a class="resources-button" href="/kit-alzheimer/">Completar e imprimir →</a>
+  </div>
+
+  <div class="resources-card">
     <h3>Carnet de Traqueostomía</h3>
     <p>Crea e imprime una credencial personalizada con datos de la cánula, procedimiento, centro de control y equipo tratante.</p>
     <a class="resources-button" href="/carnet-traqueostomia/">Crear mi carnet →</a>
@@ -65,6 +71,7 @@ author_profile: true
 <h2>Recursos destacados</h2>
 
 <ul>
+  <li><a href="/kit-alzheimer/"><strong>Kit para familias · Alzheimer</strong></a> — hoja práctica personalizable con estrategias de comunicación, señales de alerta y perfil de apoyo cotidiano.</li>
   <li><a href="/alzheimer-fonoaudiologia/"><strong>Fonoaudiología y enfermedad de Alzheimer</strong></a> — guía sobre comunicación y disfagia con orientaciones para familias, síntesis clínica para profesionales y referencias comentadas.</li>
   <li><a href="/diplomados-fonoaudiologia/"><strong>Postgrados en Fonoaudiología en Chile</strong></a> — directorio filtrable de diplomados y magísteres con acceso a sus páginas oficiales.</li>
   <li><a href="/afasia/"><strong>Afasia: comprender, evaluar y rehabilitar</strong></a> — guía educativa sobre causas, perfiles clínicos, evaluación, rehabilitación y participación en la vida cotidiana.</li>
