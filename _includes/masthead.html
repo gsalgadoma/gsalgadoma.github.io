@@ -1,4 +1,28 @@
 {% include base_path %}
+{% assign navigation_links = site.data.navigation.main %}
+{% assign home_url = '/' %}
+{% assign spanish_url = page.url %}
+{% assign english_url = '/en/' %}
+{% assign english_page = false %}
+{% if page.url contains '/en/' %}
+  {% assign english_page = true %}
+  {% assign navigation_links = site.data.navigation.english %}
+  {% assign home_url = '/en/' %}
+  {% assign spanish_url = '/' %}
+  {% assign english_url = page.url %}
+{% endif %}
+{% for pair in site.data.languages %}
+  {% if page.url == pair.es or page.url == pair.en %}
+    {% assign spanish_url = pair.es %}
+    {% assign english_url = pair.en %}
+  {% endif %}
+{% endfor %}
+<style>
+.site-language-switch { display: inline-flex; align-items: center; gap: .35rem; padding: .3rem .55rem; border: 1px solid var(--global-border-color); border-radius: 999px; white-space: nowrap; }
+.greedy-nav .site-language-switch a { margin: 0; padding: .1rem .15rem; font-size: .75rem; line-height: 1.4; }
+.site-language-switch a[aria-current="true"] { font-weight: 800; text-decoration: underline; text-underline-offset: .2rem; }
+.site-language-switch a:focus-visible { outline: 2px solid #2a5db0; outline-offset: 3px; }
+</style>
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -6,7 +30,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ home_url | relative_url }}">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -15,6 +39,13 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item persist">
+            <div class="site-language-switch" role="group" aria-label="{% if english_page %}Language{% else %}Idioma{% endif %}">
+              <a href="{{ spanish_url | relative_url }}" lang="es" hreflang="es" aria-label="Ver en español"{% unless english_page %} aria-current="true"{% endunless %}>ES</a>
+              <span aria-hidden="true">/</span>
+              <a href="{{ english_url | relative_url }}" lang="en" hreflang="en" aria-label="View in English"{% if english_page %} aria-current="true"{% endif %}>EN</a>
+            </div>
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

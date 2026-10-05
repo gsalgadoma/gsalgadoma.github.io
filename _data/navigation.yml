@@ -31,3 +31,21 @@ main:
 
   - title: "Contacto"
     url: /contact/
+
+english:
+  - title: "Home"
+    url: /en/
+  - title: "Research"
+    url: /en/research/
+  - title: "Publications"
+    url: /en/publications/
+  - title: "Teaching"
+    url: /en/teaching/
+  - title: "Resources"
+    url: /en/resources/
+  - title: "Leadership"
+    url: /en/leadership/
+  - title: "CV"
+    url: /en/cv/
+  - title: "Contact"
+    url: /en/contact/

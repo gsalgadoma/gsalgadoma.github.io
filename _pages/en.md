@@ -1,63 +1,38 @@
 ---
 title: "Gabriel Salgado Maldonado"
 permalink: /en/
+lang: en
 author_profile: true
 ---
 
-<div class="notice--primary" style="padding:1.25rem 1.4rem; margin-bottom:1.5rem; border-radius:16px;">
-<strong>Academic, clinician and researcher</strong><br>
-Voice, swallowing, airway rehabilitation, critical care, epidemiology and public health.
-</div>
+**Speech-Language Pathologist · Epidemiologist · Academic**
 
-## Current Leadership Roles
+I integrate clinical practice, research, teaching and public health to support safe, timely and evidence-based care, particularly for people with complex communication, swallowing and airway needs.
 
-- **President**, Chilean Society of Swallowing and Feeding (SOCHIDA)
-- **Academic**, Universidad de los Andes
-- **Director**, Diploma in Intensive Care Speech-Language Pathology, Universidad de los Andes
-- **Director**, Diploma in Adult Deglutology, Universidad de los Andes
+My academic work at **Universidad de los Andes, Chile**, builds on experience in complex clinical care, health professional education, applied research and professional leadership.
 
-## Featured Impact
+## Areas of work
 
-- **More than 15 years** of clinical, academic and professional leadership experience
-- **National leadership** in scientific societies and disciplinary development
-- **Undergraduate and postgraduate teaching** in Speech-Language Pathology, Epidemiology and Health Sciences
-- **Applied research** connected to clinical practice, education and public health
+- **Swallowing and critical care:** adult dysphagia, artificial airways, airway protection, cough and rehabilitation in critically ill patients.
+- **Clinical epidemiology:** observational research, health outcomes, evidence synthesis and intervention evaluation.
+- **Public health and education:** access to care, health policy, university education and knowledge translation.
 
-I am a **Speech-Language Pathologist, Epidemiologist, Academic and Researcher**. My work integrates **clinical practice**, **teaching**, **applied research** and **disciplinary leadership**, with a focus on **voice, swallowing, airway rehabilitation, intensive care, epidemiology and public health**.
+## Current roles
 
-I currently hold academic roles at **Universidad de los Andes**, promoting evidence-based practice, interdisciplinary training and clinically relevant research.
+- President, Chilean Society of Swallowing and Feeding (SOCHIDA).
+- Academic, Universidad de los Andes.
+- Director, Diploma in Intensive Care Speech-Language Pathology.
+- Director, Diploma in Adult Deglutology.
 
-## Professional Profile
+## Recent publications
 
-My professional trajectory has been built at the intersection of complex clinical care, the training of health professionals and the development of applied research. I seek to contribute to the strengthening of speech-language pathology and rehabilitation in complex clinical settings through rigorous, person-centered and interdisciplinary work.
+{% assign recent = site.publications | sort: 'date' | reverse %}
+{% assign count = 0 %}
+{% for post in recent %}
+{% if post.category == 'manuscripts' and count < 3 %}
+- [{{ post.title }}]({{ post.paperurl }}) · *{{ post.venue }}* · {{ post.date | date: "%Y" }}
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% endfor %}
 
-## Areas of Work
-
-- **Adult swallowing disorders and dysphagia**
-- **Airway rehabilitation in critical care**
-- **Voice and airway protection**
-- **Applied epidemiology and public health**
-- **Undergraduate, postgraduate and continuing education**
-
-## Quick Links
-
-### [Research](/en/research/)
-Research interests, current topics and collaboration areas.
-
-### [Publications](/en/publications/)
-Indexed articles, protocols, conference work and selected academic output.
-
-### [Teaching](/en/teaching/)
-Undergraduate, postgraduate and continuing professional education activities.
-
-### [Leadership & Outreach](/en/leadership/)
-Scientific societies, academic networks and connections between academia, clinical practice and public health.
-
-### [CV](/en/cv/)
-Academic background, professional trajectory, teaching, publications and leadership.
-
-## Approach
-
-My work aims to build bridges between **clinical practice**, **university education**, **research** and **health policy**, with a special interest in generating real impact on the quality, safety and timeliness of care.
-
-[Volver a Español](/)
+[All publications](/en/publications/) · [Research](/en/research/) · [Teaching](/en/teaching/) · [CV](/en/cv/) · [Contact](/en/contact/)
