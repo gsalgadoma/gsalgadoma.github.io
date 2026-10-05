@@ -82,6 +82,9 @@ redirect_from:
 <h2>Producción académica seleccionada</h2>
 
 <ul>
+  <li><strong>Gaete J, Ríos N, Salgado G, Nejaz L.</strong> Acceptability and feasibility of implementing the I Can Problem Solve (ICPS) program among preschoolers in Chile: results of a pilot randomised controlled trial. <em>Child and Adolescent Psychiatry and Mental Health</em>. 2026. <a href="https://doi.org/10.1186/s13034-026-01178-2" target="_blank" rel="noopener">Ver publicación</a>.</li>
+  <li><strong>Gaete J, Ríos N, Rojas-Barahona CA, Salgado G, Ramírez S, Araya R.</strong> Japi 2.0, a gaming platform to stimulate cognitive and socio-emotional skills in early childhood: results of a pilot randomized controlled trial. <em>Child and Adolescent Psychiatry and Mental Health</em>. 2026. <a href="https://doi.org/10.1186/s13034-026-01133-1" target="_blank" rel="noopener">Ver publicación</a>.</li>
+  <li><strong>Gaete J, Ríos N, Ramírez S, Salgado G, Rojas-Barahona CA, Araya R.</strong> Six-month follow-up of the ‘Mi Mejor Plan’ school-based prevention program: a pilot cluster randomized controlled trial among early adolescents in Chile. <em>BMC Public Health</em>. 2026. <a href="https://doi.org/10.1186/s12889-026-28548-x" target="_blank" rel="noopener">Ver publicación</a>.</li>
   <li><strong>Salgado G, Gaete J, Gana S, Valenzuela D, Araya R.</strong> Acceptability, feasibility and fidelity of the culturally adapted version of Unplugged (“Yo Sé Lo Que Quiero”), a substance use preventive program among adolescents in Chile: a pilot randomized controlled study. <em>BMC Public Health</em>. 2024;24:2026. <a href="https://link.springer.com/article/10.1186/s12889-024-19499-2" target="_blank">Ver publicación</a>.</li>
   <li><strong>Evaluación de la deglución en adultos conectados a cánula nasal de alto flujo.</strong> Revisión de alcance presentada en el Congreso de Fonoaudiología y Terapia Ocupacional de la Sociedad Chilena de Medicina Intensiva, 2024.</li>
 </ul>
