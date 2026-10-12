@@ -7,11 +7,11 @@
   "display_name": "Gabriel Salgado Maldonado",
   "verified_dois_count": 10,
   "verified_works_found": 10,
-  "verified_citations": 16,
+  "verified_citations": 15,
   "open_access_count": 10,
   "missing_in_openalex_count": 0,
   "missing_in_openalex": [],
-  "updated_at": "2026-10-05T17:11:23.471879+00:00",
+  "updated_at": "2026-10-12T17:59:43.773812+00:00",
   "works": [
     {
       "id": "https://openalex.org/W7213667497",
@@ -63,7 +63,7 @@
       "publication_date": "2024-07-29",
       "type": "article",
       "doi": "https://doi.org/10.1186/s12889-024-19499-2",
-      "cited_by_count": 7,
+      "cited_by_count": 6,
       "is_open_access": true,
       "oa_status": "gold",
       "source": "BMC Public Health",
