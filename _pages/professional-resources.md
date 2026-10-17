@@ -51,6 +51,13 @@ author_profile: true
 
 <div class="prof-grid">
   <div class="prof-card">
+    <span class="prof-kicker">Geriatría interdisciplinaria · Clínica Las Condes · Octubre 2026</span>
+    <h3>Disfagia y alimentación segura al alta</h3>
+    <p>Contenidos de la jornada, caso clínico, plan de alimentación al alta y 30 referencias. Incluye presentación en PDF, hoja de indicaciones en Word y PDF y bibliografía descargable.</p>
+    <a class="prof-button" href="/disfagia-alta/">Ver material de la jornada →</a>
+  </div>
+
+  <div class="prof-card">
     <span class="prof-kicker">Curso de Voz y Deglución · Clínica Universidad de los Andes</span>
     <h3>Deglución y Enfermedad Respiratoria Crónica</h3>
     <p><strong>Del diagnóstico a la intervención especializada.</strong> Material sobre función respiratoria, protección de vía aérea, seguridad deglutoria, evaluación e intervención interdisciplinaria.</p>
