@@ -11,7 +11,7 @@
   "open_access_count": 10,
   "missing_in_openalex_count": 0,
   "missing_in_openalex": [],
-  "updated_at": "2026-10-26T15:14:51.656067+00:00",
+  "updated_at": "2026-11-02T18:28:29.682298+00:00",
   "works": [
     {
       "id": "https://openalex.org/W7213667497",
@@ -89,7 +89,7 @@
       "verified_title": "Assessment of activities and participation of people by rehabilitation-focused clinical registries: a systematic scoping review",
       "publication_year": 2023,
       "publication_date": "2023-09-18",
-      "type": "article",
+      "type": "review",
       "doi": "https://doi.org/10.23736/s1973-9087.23.07895-4",
       "cited_by_count": 3,
       "is_open_access": true,
